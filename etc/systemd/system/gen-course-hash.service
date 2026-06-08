@@ -1,0 +1,11 @@
+[Unit]
+Description=Genera hash de curso en /etc/hash (solo primera vez)
+ConditionPathExists=!/etc/hash
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/gen_course_hash.sh
+
+[Install]
+WantedBy=multi-user.target
+
