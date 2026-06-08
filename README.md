@@ -4,9 +4,9 @@
 
 | Nombre | Apellido | Legajo |
 |--------|----------|--------|
-| Pedro  |Oviedo    | 12345  |
-| Dylan  |Musso    | 67890  |
-| Tomas  |Noto    | 11223  |
+| Pedro  |Oviedo    | 0164463|
+| Dylan  |Musso     | 0162688|
+| Tomas  |Noto      | 0142328| 
 
 ## Descripción del Proyecto
 
