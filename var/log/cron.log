@@ -1,0 +1,1 @@
+2026-06-08T00:09:01.107303-03:00 debian CRON[3289]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)

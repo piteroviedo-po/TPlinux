@@ -1,0 +1,15 @@
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libnss_nisplus.so.2.0.0
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnss-nisplus
+/usr/share/doc/libnss-nisplus/changelog.Debian.gz
+/usr/share/doc/libnss-nisplus/changelog.gz
+/usr/share/doc/libnss-nisplus/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libnss-nisplus
+/lib/x86_64-linux-gnu/libnss_nisplus.so.2

@@ -1,0 +1,20 @@
+2026-06-08T00:01:02.844072-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cat /proc/partitions
+2026-06-08T00:01:02.844945-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:01:02.851274-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:01:19.901235-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/systemd/system/guardar-particiones.service
+2026-06-08T00:01:19.902078-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:01:47.287259-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:02:06.879010-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+2026-06-08T00:02:06.879724-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:02:07.152195-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:02:15.232997-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl enable guardar-particiones.service
+2026-06-08T00:02:15.233877-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:02:15.618338-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:02:28.263057-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl start guardar-particiones.service
+2026-06-08T00:02:28.270018-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:02:28.324282-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:03:08.886110-03:00 debian sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl status guardar-particiones.service
+2026-06-08T00:03:08.886676-03:00 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-08T00:04:01.972977-03:00 debian sudo: pam_unix(sudo:session): session closed for user root
+2026-06-08T00:09:01.096257-03:00 debian CRON[3288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2026-06-08T00:09:01.107445-03:00 debian CRON[3288]: pam_unix(cron:session): session closed for user root

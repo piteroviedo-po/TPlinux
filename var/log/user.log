@@ -1,0 +1,10 @@
+2026-06-02T19:43:42.834787-03:00 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+2026-06-02T19:43:42.893036-03:00 debian vboxadd-service.sh: VirtualBox Guest Addition service started.
+2026-06-02T20:12:24.289066-03:00 debian /usr/sbin/gpm[1644]: *** info [daemon/startup.c(131)]: 
+2026-06-02T20:12:24.289165-03:00 debian /usr/sbin/gpm[1644]: Started gpm successfully. Entered daemon mode.
+2026-06-02T20:12:25.465174-03:00 debian /usr/sbin/gpm[1655]: *** info [daemon/startup.c(131)]: 
+2026-06-02T20:12:25.465307-03:00 debian /usr/sbin/gpm[1655]: Started gpm successfully. Entered daemon mode.
+2026-06-02T22:14:22.368093-03:00 debian /usr/sbin/gpm[497]: *** info [daemon/startup.c(131)]: 
+2026-06-02T22:14:22.368102-03:00 debian /usr/sbin/gpm[497]: Started gpm successfully. Entered daemon mode.
+2026-06-02T22:14:26.604853-03:00 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+2026-06-02T22:14:26.732590-03:00 debian vboxadd-service.sh: VirtualBox Guest Addition service started.

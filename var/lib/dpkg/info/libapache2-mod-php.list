@@ -1,0 +1,11 @@
+/.
+/etc
+/etc/php
+/etc/php/8.2
+/etc/php/8.2/mods-available
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapache2-mod-php
+/usr/share/doc/libapache2-mod-php/changelog.gz
+/usr/share/doc/libapache2-mod-php/copyright

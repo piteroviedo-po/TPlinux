@@ -1,0 +1,242 @@
+Dec 14 18:18:47 debian kernel: [    0.001247] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Dec 14 18:18:47 debian kernel: [    0.001251] e820: remove [mem 0x000a0000-0x000fffff] usable
+Dec 14 18:18:47 debian kernel: [    0.001307] MTRR default type: uncachable
+Dec 14 18:18:47 debian kernel: [    0.001308] MTRR fixed ranges enabled:
+Dec 14 18:18:47 debian kernel: [    0.001309]   00000-9FFFF write-back
+Dec 14 18:18:47 debian kernel: [    0.001310]   A0000-BFFFF uncachable
+Dec 14 18:18:47 debian kernel: [    0.001310]   C0000-FFFFF write-protect
+Dec 14 18:18:47 debian kernel: [    0.001311] MTRR variable ranges enabled:
+Dec 14 18:18:47 debian kernel: [    0.001312]   0 base 000000000000 mask FFFF80000000 write-back
+Dec 14 18:18:47 debian kernel: [    0.001313]   1 disabled
+Dec 14 18:18:47 debian kernel: [    0.001313]   2 disabled
+Dec 14 18:18:47 debian kernel: [    0.001314]   3 disabled
+Dec 14 18:18:47 debian kernel: [    0.001314]   4 disabled
+Dec 14 18:18:47 debian kernel: [    0.001315]   5 disabled
+Dec 14 18:18:47 debian kernel: [    0.001315]   6 disabled
+Dec 14 18:18:47 debian kernel: [    0.001316]   7 disabled
+Dec 14 18:18:47 debian kernel: [    0.001316]   8 disabled
+Dec 14 18:18:47 debian kernel: [    0.001317]   9 disabled
+Dec 14 18:18:47 debian kernel: [    0.001317]   10 disabled
+Dec 14 18:18:47 debian kernel: [    0.001317]   11 disabled
+Dec 14 18:18:47 debian kernel: [    0.001318]   12 disabled
+Dec 14 18:18:47 debian kernel: [    0.001318]   13 disabled
+Dec 14 18:18:47 debian kernel: [    0.001319]   14 disabled
+Dec 14 18:18:47 debian kernel: [    0.001319]   15 disabled
+Dec 14 18:18:47 debian kernel: [    0.051848] ACPI: Local APIC address 0xfee00000
+Dec 14 18:18:47 debian kernel: [    0.052251] On node 0 totalpages: 524174
+Dec 14 18:18:47 debian kernel: [    0.052252]   DMA zone: 64 pages used for memmap
+Dec 14 18:18:47 debian kernel: [    0.052253]   DMA zone: 21 pages reserved
+Dec 14 18:18:47 debian kernel: [    0.052253]   DMA zone: 3998 pages, LIFO batch:0
+Dec 14 18:18:47 debian kernel: [    0.052254]   DMA32 zone: 8128 pages used for memmap
+Dec 14 18:18:47 debian kernel: [    0.052255]   DMA32 zone: 520176 pages, LIFO batch:63
+Dec 14 18:18:47 debian kernel: [    0.053422] ACPI: Local APIC address 0xfee00000
+Dec 14 18:18:47 debian kernel: [    0.053493] ACPI: IRQ0 used by override.
+Dec 14 18:18:47 debian kernel: [    0.053494] ACPI: IRQ9 used by override.
+Dec 14 18:18:47 debian kernel: [    0.057340] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Dec 14 18:18:47 debian kernel: [    0.057341] pcpu-alloc: [0] 0 1 
+Dec 14 18:18:47 debian kernel: [    0.373896] PCI: pci_cache_line_size set to 64 bytes
+Dec 14 18:18:47 debian kernel: [    0.373979] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Dec 14 18:18:47 debian kernel: [    0.373983] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Dec 14 18:18:47 debian kernel: [    0.389083] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Dec 14 18:18:47 debian kernel: [    0.389158] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Dec 14 18:18:47 debian kernel: [    0.900175]   with arguments:
+Dec 14 18:18:47 debian kernel: [    0.900176]     /init
+Dec 14 18:18:47 debian kernel: [    0.900177]   with environment:
+Dec 14 18:18:47 debian kernel: [    0.900178]     HOME=/
+Dec 14 18:18:47 debian kernel: [    0.900179]     TERM=linux
+Dec 14 18:18:47 debian kernel: [    0.900180]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-30-amd64
+Dec 14 18:18:47 debian kernel: [    0.976103] libata version 3.00 loaded.
+Dec 14 18:18:47 debian kernel: [    0.977400] ata_piix 0000:00:01.1: version 2.13
+Dec 14 18:18:47 debian kernel: [    0.992760] ahci 0000:00:0d.0: version 3.0
+Dec 14 18:18:47 debian kernel: [    1.659191] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+Dec 14 18:18:47 debian kernel: [    1.659197] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Dec 14 18:18:47 debian kernel: [    1.843713] PM: Image not found (code -22)
+Dec 14 18:26:20 debian kernel: [    0.000994] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Dec 14 18:26:20 debian kernel: [    0.001001] e820: remove [mem 0x000a0000-0x000fffff] usable
+Dec 14 18:26:20 debian kernel: [    0.001048] MTRR default type: uncachable
+Dec 14 18:26:20 debian kernel: [    0.001049] MTRR fixed ranges enabled:
+Dec 14 18:26:20 debian kernel: [    0.001050]   00000-9FFFF write-back
+Dec 14 18:26:20 debian kernel: [    0.001051]   A0000-BFFFF uncachable
+Dec 14 18:26:20 debian kernel: [    0.001051]   C0000-FFFFF write-protect
+Dec 14 18:26:20 debian kernel: [    0.001052] MTRR variable ranges enabled:
+Dec 14 18:26:20 debian kernel: [    0.001053]   0 base 000000000000 mask FFFF80000000 write-back
+Dec 14 18:26:20 debian kernel: [    0.001054]   1 disabled
+Dec 14 18:26:20 debian kernel: [    0.001054]   2 disabled
+Dec 14 18:26:20 debian kernel: [    0.001055]   3 disabled
+Dec 14 18:26:20 debian kernel: [    0.001055]   4 disabled
+Dec 14 18:26:20 debian kernel: [    0.001055]   5 disabled
+Dec 14 18:26:20 debian kernel: [    0.001056]   6 disabled
+Dec 14 18:26:20 debian kernel: [    0.001056]   7 disabled
+Dec 14 18:26:20 debian kernel: [    0.001057]   8 disabled
+Dec 14 18:26:20 debian kernel: [    0.001057]   9 disabled
+Dec 14 18:26:20 debian kernel: [    0.001062]   10 disabled
+Dec 14 18:26:20 debian kernel: [    0.001062]   11 disabled
+Dec 14 18:26:20 debian kernel: [    0.001063]   12 disabled
+Dec 14 18:26:20 debian kernel: [    0.001063]   13 disabled
+Dec 14 18:26:20 debian kernel: [    0.001064]   14 disabled
+Dec 14 18:26:20 debian kernel: [    0.001064]   15 disabled
+Dec 14 18:26:20 debian kernel: [    0.052427] ACPI: Local APIC address 0xfee00000
+Dec 14 18:26:20 debian kernel: [    0.052841] On node 0 totalpages: 524174
+Dec 14 18:26:20 debian kernel: [    0.052842]   DMA zone: 64 pages used for memmap
+Dec 14 18:26:20 debian kernel: [    0.052842]   DMA zone: 21 pages reserved
+Dec 14 18:26:20 debian kernel: [    0.052843]   DMA zone: 3998 pages, LIFO batch:0
+Dec 14 18:26:20 debian kernel: [    0.052844]   DMA32 zone: 8128 pages used for memmap
+Dec 14 18:26:20 debian kernel: [    0.052844]   DMA32 zone: 520176 pages, LIFO batch:63
+Dec 14 18:26:20 debian kernel: [    0.054058] ACPI: Local APIC address 0xfee00000
+Dec 14 18:26:20 debian kernel: [    0.054126] ACPI: IRQ0 used by override.
+Dec 14 18:26:20 debian kernel: [    0.054127] ACPI: IRQ9 used by override.
+Dec 14 18:26:20 debian kernel: [    0.057893] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Dec 14 18:26:20 debian kernel: [    0.057894] pcpu-alloc: [0] 0 1 
+Dec 14 18:26:20 debian kernel: [    0.384067] PCI: pci_cache_line_size set to 64 bytes
+Dec 14 18:26:20 debian kernel: [    0.384067] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Dec 14 18:26:20 debian kernel: [    0.384067] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Dec 14 18:26:20 debian kernel: [    0.397574] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Dec 14 18:26:20 debian kernel: [    0.397635] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Dec 14 18:26:20 debian kernel: [    0.887573]   with arguments:
+Dec 14 18:26:20 debian kernel: [    0.887574]     /init
+Dec 14 18:26:20 debian kernel: [    0.887575]   with environment:
+Dec 14 18:26:20 debian kernel: [    0.887576]     HOME=/
+Dec 14 18:26:20 debian kernel: [    0.887577]     TERM=linux
+Dec 14 18:26:20 debian kernel: [    0.887578]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-30-amd64
+Dec 14 18:26:20 debian kernel: [    0.991614] libata version 3.00 loaded.
+Dec 14 18:26:20 debian kernel: [    0.994886] ahci 0000:00:0d.0: version 3.0
+Dec 14 18:26:20 debian kernel: [    0.994980] ata_piix 0000:00:01.1: version 2.13
+Dec 14 18:26:20 debian kernel: [    1.644227] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Dec 14 18:26:20 debian kernel: [    1.646002] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+Dec 14 18:26:20 debian kernel: [    1.736132] PM: Image not found (code -22)
+May 16 12:10:13 debian kernel: [    0.007514] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+May 16 12:10:13 debian kernel: [    0.007519] e820: remove [mem 0x000a0000-0x000fffff] usable
+May 16 12:10:13 debian kernel: [    0.007637] MTRR default type: uncachable
+May 16 12:10:13 debian kernel: [    0.007639] MTRR fixed ranges enabled:
+May 16 12:10:13 debian kernel: [    0.007640]   00000-9FFFF write-back
+May 16 12:10:13 debian kernel: [    0.007641]   A0000-BFFFF uncachable
+May 16 12:10:13 debian kernel: [    0.007642]   C0000-FFFFF write-protect
+May 16 12:10:13 debian kernel: [    0.007643] MTRR variable ranges enabled:
+May 16 12:10:13 debian kernel: [    0.007644]   0 disabled
+May 16 12:10:13 debian kernel: [    0.007645]   1 disabled
+May 16 12:10:13 debian kernel: [    0.007646]   2 disabled
+May 16 12:10:13 debian kernel: [    0.007646]   3 disabled
+May 16 12:10:13 debian kernel: [    0.007647]   4 disabled
+May 16 12:10:13 debian kernel: [    0.007648]   5 disabled
+May 16 12:10:13 debian kernel: [    0.007649]   6 disabled
+May 16 12:10:13 debian kernel: [    0.007649]   7 disabled
+May 16 12:10:13 debian kernel: [    0.079288] ACPI: Local APIC address 0xfee00000
+May 16 12:10:13 debian kernel: [    0.081573] On node 0 totalpages: 524174
+May 16 12:10:13 debian kernel: [    0.081574]   DMA zone: 64 pages used for memmap
+May 16 12:10:13 debian kernel: [    0.081575]   DMA zone: 21 pages reserved
+May 16 12:10:13 debian kernel: [    0.081576]   DMA zone: 3998 pages, LIFO batch:0
+May 16 12:10:13 debian kernel: [    0.081578]   DMA32 zone: 8128 pages used for memmap
+May 16 12:10:13 debian kernel: [    0.081579]   DMA32 zone: 520176 pages, LIFO batch:63
+May 16 12:10:13 debian kernel: [    0.100766] ACPI: Local APIC address 0xfee00000
+May 16 12:10:13 debian kernel: [    0.101270] ACPI: IRQ0 used by override.
+May 16 12:10:13 debian kernel: [    0.101272] ACPI: IRQ9 used by override.
+May 16 12:10:13 debian kernel: [    0.120411] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+May 16 12:10:13 debian kernel: [    0.120414] pcpu-alloc: [0] 0 1 
+May 16 12:10:13 debian kernel: [    0.913599] PCI: pci_cache_line_size set to 64 bytes
+May 16 12:10:13 debian kernel: [    0.915355] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+May 16 12:10:13 debian kernel: [    0.915359] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+May 16 12:10:13 debian kernel: [    0.916831] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+May 16 12:10:13 debian kernel: [    0.942675] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+May 16 12:10:13 debian kernel: [    2.613055]   with arguments:
+May 16 12:10:13 debian kernel: [    2.613056]     /init
+May 16 12:10:13 debian kernel: [    2.613057]   with environment:
+May 16 12:10:13 debian kernel: [    2.613058]     HOME=/
+May 16 12:10:13 debian kernel: [    2.613059]     TERM=linux
+May 16 12:10:13 debian kernel: [    2.613060]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-30-amd64
+May 16 12:10:13 debian kernel: [    3.025527] libata version 3.00 loaded.
+May 16 12:10:13 debian kernel: [    3.050245] ata_piix 0000:00:01.1: version 2.13
+May 16 12:10:13 debian kernel: [    3.109237] ahci 0000:00:0d.0: version 3.0
+May 16 12:10:13 debian kernel: [    3.932321] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+May 16 12:10:13 debian kernel: [    3.932683] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+May 16 12:10:13 debian kernel: [    4.649965] PM: Image not found (code -22)
+May 16 12:14:00 debian kernel: [    0.012810] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+May 16 12:14:00 debian kernel: [    0.012825] e820: remove [mem 0x000a0000-0x000fffff] usable
+May 16 12:14:00 debian kernel: [    0.013099] MTRR default type: uncachable
+May 16 12:14:00 debian kernel: [    0.013103] MTRR fixed ranges enabled:
+May 16 12:14:00 debian kernel: [    0.013107]   00000-9FFFF write-back
+May 16 12:14:00 debian kernel: [    0.013110]   A0000-BFFFF uncachable
+May 16 12:14:00 debian kernel: [    0.013114]   C0000-FFFFF write-protect
+May 16 12:14:00 debian kernel: [    0.013117] MTRR variable ranges enabled:
+May 16 12:14:00 debian kernel: [    0.013119]   0 disabled
+May 16 12:14:00 debian kernel: [    0.013121]   1 disabled
+May 16 12:14:00 debian kernel: [    0.013124]   2 disabled
+May 16 12:14:00 debian kernel: [    0.013126]   3 disabled
+May 16 12:14:00 debian kernel: [    0.013128]   4 disabled
+May 16 12:14:00 debian kernel: [    0.013130]   5 disabled
+May 16 12:14:00 debian kernel: [    0.013133]   6 disabled
+May 16 12:14:00 debian kernel: [    0.013135]   7 disabled
+May 16 12:14:00 debian kernel: [    0.113026] ACPI: Local APIC address 0xfee00000
+May 16 12:14:00 debian kernel: [    0.117264] On node 0 totalpages: 524174
+May 16 12:14:00 debian kernel: [    0.117266]   DMA zone: 64 pages used for memmap
+May 16 12:14:00 debian kernel: [    0.117267]   DMA zone: 21 pages reserved
+May 16 12:14:00 debian kernel: [    0.117269]   DMA zone: 3998 pages, LIFO batch:0
+May 16 12:14:00 debian kernel: [    0.117270]   DMA32 zone: 8128 pages used for memmap
+May 16 12:14:00 debian kernel: [    0.117272]   DMA32 zone: 520176 pages, LIFO batch:63
+May 16 12:14:00 debian kernel: [    0.143577] ACPI: Local APIC address 0xfee00000
+May 16 12:14:00 debian kernel: [    0.144364] ACPI: IRQ0 used by override.
+May 16 12:14:00 debian kernel: [    0.144366] ACPI: IRQ9 used by override.
+May 16 12:14:00 debian kernel: [    0.174857] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+May 16 12:14:00 debian kernel: [    0.174861] pcpu-alloc: [0] 0 1 
+May 16 12:14:00 debian kernel: [    2.735927] PCI: pci_cache_line_size set to 64 bytes
+May 16 12:14:00 debian kernel: [    2.741644] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+May 16 12:14:00 debian kernel: [    2.741650] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+May 16 12:14:00 debian kernel: [    2.797259] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+May 16 12:14:00 debian kernel: [    2.797401] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+May 16 12:14:00 debian kernel: [    6.174636]   with arguments:
+May 16 12:14:00 debian kernel: [    6.174640]     /init
+May 16 12:14:00 debian kernel: [    6.174642]     single
+May 16 12:14:00 debian kernel: [    6.174644]   with environment:
+May 16 12:14:00 debian kernel: [    6.174646]     HOME=/
+May 16 12:14:00 debian kernel: [    6.174647]     TERM=linux
+May 16 12:14:00 debian kernel: [    6.174649]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-30-amd64
+May 16 12:14:00 debian kernel: [    6.913296] libata version 3.00 loaded.
+May 16 12:14:00 debian kernel: [    6.937283] ata_piix 0000:00:01.1: version 2.13
+May 16 12:14:00 debian kernel: [    6.944158] ahci 0000:00:0d.0: version 3.0
+May 16 12:14:00 debian kernel: [    8.139577] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+May 16 12:14:00 debian kernel: [    8.146268] sd 2:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+May 16 12:14:00 debian kernel: [    9.189020] PM: Image not found (code -22)
+May 16 12:27:42 debian kernel: [    0.004410] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+May 16 12:27:42 debian kernel: [    0.004416] e820: remove [mem 0x000a0000-0x000fffff] usable
+May 16 12:27:42 debian kernel: [    0.004599] MTRR default type: uncachable
+May 16 12:27:42 debian kernel: [    0.004603] MTRR fixed ranges enabled:
+May 16 12:27:42 debian kernel: [    0.004606]   00000-9FFFF write-back
+May 16 12:27:42 debian kernel: [    0.004608]   A0000-BFFFF uncachable
+May 16 12:27:42 debian kernel: [    0.004610]   C0000-FFFFF write-protect
+May 16 12:27:42 debian kernel: [    0.004611] MTRR variable ranges enabled:
+May 16 12:27:42 debian kernel: [    0.004613]   0 disabled
+May 16 12:27:42 debian kernel: [    0.004614]   1 disabled
+May 16 12:27:42 debian kernel: [    0.004616]   2 disabled
+May 16 12:27:42 debian kernel: [    0.004617]   3 disabled
+May 16 12:27:42 debian kernel: [    0.004618]   4 disabled
+May 16 12:27:42 debian kernel: [    0.004620]   5 disabled
+May 16 12:27:42 debian kernel: [    0.004621]   6 disabled
+May 16 12:27:42 debian kernel: [    0.004622]   7 disabled
+May 16 12:27:42 debian kernel: [    0.072784] ACPI: Local APIC address 0xfee00000
+May 16 12:27:42 debian kernel: [    0.074838] On node 0 totalpages: 524174
+May 16 12:27:42 debian kernel: [    0.074840]   DMA zone: 64 pages used for memmap
+May 16 12:27:42 debian kernel: [    0.074841]   DMA zone: 21 pages reserved
+May 16 12:27:42 debian kernel: [    0.074842]   DMA zone: 3998 pages, LIFO batch:0
+May 16 12:27:42 debian kernel: [    0.074843]   DMA32 zone: 8128 pages used for memmap
+May 16 12:27:42 debian kernel: [    0.074844]   DMA32 zone: 520176 pages, LIFO batch:63
+May 16 12:27:42 debian kernel: [    0.080947] ACPI: Local APIC address 0xfee00000
+May 16 12:27:42 debian kernel: [    0.081861] ACPI: IRQ0 used by override.
+May 16 12:27:42 debian kernel: [    0.081862] ACPI: IRQ9 used by override.
+May 16 12:27:42 debian kernel: [    0.087456] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+May 16 12:27:42 debian kernel: [    0.087458] pcpu-alloc: [0] 0 1 
+May 16 12:27:42 debian kernel: [    0.741695] PCI: pci_cache_line_size set to 64 bytes
+May 16 12:27:42 debian kernel: [    0.745710] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+May 16 12:27:42 debian kernel: [    0.745712] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+May 16 12:27:42 debian kernel: [    0.761359] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+May 16 12:27:42 debian kernel: [    0.761359] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+May 16 12:27:42 debian kernel: [    1.536249]   with arguments:
+May 16 12:27:42 debian kernel: [    1.536250]     /init
+May 16 12:27:42 debian kernel: [    1.536252]   with environment:
+May 16 12:27:42 debian kernel: [    1.536253]     HOME=/
+May 16 12:27:42 debian kernel: [    1.536254]     TERM=linux
+May 16 12:27:42 debian kernel: [    1.536255]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-30-amd64
+May 16 12:27:42 debian kernel: [    1.901710] libata version 3.00 loaded.
+May 16 12:27:42 debian kernel: [    1.928650] ata_piix 0000:00:01.1: version 2.13
+May 16 12:27:42 debian kernel: [    1.932424] ahci 0000:00:0d.0: version 3.0
+May 16 12:27:42 debian kernel: [    2.627873] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+May 16 12:27:42 debian kernel: [    2.628019] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+May 16 12:27:42 debian kernel: [    3.279286] PM: Image not found (code -22)

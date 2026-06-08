@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.11.4
+dpkg-maintscript-helper rm_conffile /etc/ghostscript/fontmap.d/10gsfonts.conf 2:20200910-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/defoma/hints/gsfonts.hints 2:20200910-2\~ -- "$@"
+# End automatically added section

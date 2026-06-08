@@ -1,0 +1,9 @@
+df2344ccb93b0f28c51f4ff2b52414a4  usr/bin/sshfs
+2b0f643cc3cfd60f7bddc6c78468a27a  usr/share/bug/sshfs/presubj
+fddbabe2a516ddc40dc59e5ac6a75c07  usr/share/doc/sshfs/AUTHORS
+ee85eb381b0642263defe23c6802d8d9  usr/share/doc/sshfs/README.Debian
+401e4b3fb8527bdee390fc3b49261cb8  usr/share/doc/sshfs/README.rst
+15c77b73905db60d0f76c367865bbb86  usr/share/doc/sshfs/changelog.Debian.gz
+25c4520b396e32017c7dbdc37bd89106  usr/share/doc/sshfs/changelog.gz
+09d405004d1eb6e8b7435249e887ee90  usr/share/doc/sshfs/copyright
+51a77477098f7e8f8525ece03085c6f6  usr/share/man/man1/sshfs.1.gz

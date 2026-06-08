@@ -1,0 +1,8 @@
+4db8413ba1e983ece47c028c6ae36601  usr/bin/img2sixel
+beac9c60bf884d9e4bfbadda4a304e4b  usr/bin/libsixel-config
+771effd6982eeda8f551b263bbf8c360  usr/bin/sixel2png
+18f703efd7924d55fc16b093f5a0bbb1  usr/share/doc/libsixel-bin/changelog.Debian.gz
+fa3ece73c40822daa46addf693b757a7  usr/share/doc/libsixel-bin/copyright
+faf0679e3dd5136dbdd4c959ea949207  usr/share/lintian/overrides/libsixel-bin
+154625e50e0f5a0bd805c08a7d40ec38  usr/share/man/man1/img2sixel.1.gz
+9f7f7f0dd4955dfa4f7a6b9f3adbb458  usr/share/man/man1/sixel2png.1.gz

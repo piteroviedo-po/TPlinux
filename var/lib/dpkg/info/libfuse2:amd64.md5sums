@@ -1,0 +1,11 @@
+3aa7c86a9163322502aec641db424855  lib/x86_64-linux-gnu/libfuse.so.2.9.9
+e7d60fb58d2fc5acccbcf8c384b86475  lib/x86_64-linux-gnu/libulockmgr.so.1.0.1
+07dd4fc1c16c3f4bdf17fc4954e59da6  usr/share/doc/libfuse2/NEWS.gz
+3b2b6c878d9f5d43d759425f1e7c548a  usr/share/doc/libfuse2/README.NFS
+749626019562535ae0d72b024b3b8908  usr/share/doc/libfuse2/README.md
+d99f930594a2c44c872fc766d78391d1  usr/share/doc/libfuse2/changelog.Debian.amd64.gz
+5bd09d412af0e10d96664876bac8b04a  usr/share/doc/libfuse2/changelog.Debian.gz
+78ce8cda89c7c0821e4eb90a3b9fc71c  usr/share/doc/libfuse2/changelog.gz
+e30572e52fb946fa99316e9e655bec75  usr/share/doc/libfuse2/copyright
+efbd22fb0ee1feeaf3ff46cf2408df77  usr/share/doc/libfuse2/how-fuse-works
+69d71160fe4b53c42970b6e2f8701035  usr/share/doc/libfuse2/kernel.txt.gz

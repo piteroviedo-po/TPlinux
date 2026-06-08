@@ -1,0 +1,12 @@
+2026-06-08T00:00:08.205958-03:00 debian systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 482 (rsyslogd) on client request.
+2026-06-08T00:00:08.206244-03:00 debian rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="482" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+2026-06-08T00:00:08.218774-03:00 debian systemd[1]: logrotate.service: Deactivated successfully.
+2026-06-08T00:00:08.219784-03:00 debian systemd[1]: Finished logrotate.service - Rotate log files.
+2026-06-08T00:02:06.892288-03:00 debian systemd[1]: Reloading.
+2026-06-08T00:02:15.246012-03:00 debian systemd[1]: Reloading.
+2026-06-08T00:02:28.301503-03:00 debian systemd[1]: Starting guardar-particiones.service - Guardar el estado inicial de las particiones de /proc en /opt...
+2026-06-08T00:02:28.307817-03:00 debian systemd[1]: Finished guardar-particiones.service - Guardar el estado inicial de las particiones de /proc en /opt.
+2026-06-08T00:09:01.107303-03:00 debian CRON[3289]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-06-08T00:09:22.489853-03:00 debian systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-06-08T00:09:22.702752-03:00 debian systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-06-08T00:09:22.702901-03:00 debian systemd[1]: Finished phpsessionclean.service - Clean php session files.

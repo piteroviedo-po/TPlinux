@@ -1,0 +1,1676 @@
+Package: libc-l10n
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libklibc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: klibc-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: initramfs-tools-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsqlite3-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mime-support
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagic1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libexpat1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: firmware-linux-free
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagic-mgc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xz-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bzip2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: file
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apparmor
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpci3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libusb-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: console-setup-linux
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xkb-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kbd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdiscover2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: discover-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libusb-0.1-4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxdmcp6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bluez
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iso-codes
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libssh2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnl-route-3-200
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkrb5-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgssapi-krb5-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnghttp2-14
+Architecture: amd64
+Auto-Installed: 1
+
+Package: util-linux-locales
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbus-1-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: publicsuffix
+Architecture: amd64
+Auto-Installed: 1
+
+Package: manpages-es
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcsclite1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iw
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-modules-db
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap-2.4-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfstrm0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdw1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnl-genl-3-200
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xdg-user-dirs
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wireless-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ispell
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpsl5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasound2-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python2.7-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-urllib3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: debian-reference-es
+Architecture: amd64
+Auto-Installed: 1
+
+Package: powermgmt-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libiw30
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pysimplesoap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: anacron
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python-apt-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libk5crypto3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-idna
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdaemon0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-six
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wspanish
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpipeline1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-requests
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-httplib2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ispanish
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblmdb0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pycurl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaspell15
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxau6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librtmp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-modules
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkrb5support0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnl-3-200
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdbm6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkeyutils1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxmuu1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libprotobuf-c1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-8-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: distro-info-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pkg-resources
+Architecture: amd64
+Auto-Installed: 1
+
+Package: debian-reference-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: shared-mime-info
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wpasupplicant
+Architecture: amd64
+Auto-Installed: 1
+
+Package: powertop
+Architecture: amd64
+Auto-Installed: 1
+
+Package: emacsen-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: aspell
+Architecture: amd64
+Auto-Installed: 1
+
+Package: avahi-autoipd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasound2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debianbts
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libuchardet0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libglib2.0-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dictionaries-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: lsb-release
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython2.7-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libedit2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xauth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bluetooth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: crda
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdbm-compat4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython2.7-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debian
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-certifi
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-chardet
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libglib2.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wireless-regdb
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcurl3-gnutls
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-apt
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxext6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: aspell-es
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libefivar1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libefiboot1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfuse2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfreetype6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpng16-16
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-pc-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwebp6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libopenjp2-7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcups2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblcms2-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: chafa
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagickwand-6.q16-6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavahi-common-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavahi-common3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libchafa0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnuma1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-droid-fallback
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fontconfig-config
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libltdl7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpaper1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblqr-1-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtiff5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjbig2dec0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-dejavu-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpaper-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ghostscript
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgomp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwebpmux3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libijs-0.35
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfontconfig1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagickcore-6.q16-6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgs9-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gsfonts
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfftw3-double3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjbig0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavahi-client3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-noto-mono
+Architecture: amd64
+Auto-Installed: 1
+
+Package: poppler-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjpeg62-turbo
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libheif1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libde265-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: imagemagick-6-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libunwind8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: javascript-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: lynx-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fish-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-32-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery
+Architecture: amd64
+Auto-Installed: 1
+
+Package: lynx
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xsel
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fortune-mod
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fortunes-min
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librecode0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcurl4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: alsa-topology-conf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdeflate0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx265-192
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-distutils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.9-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: alsa-ucm-conf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.9-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbrotli1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbpf0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gcc-10-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mailcap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: media-types
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-urw-base35
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libicu67
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bsdmainutils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtirpc-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-5.10.0-30-amd64
+Architecture: amd64
+Auto-Installed: 1
+
+Package: perl-modules-5.32
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.9
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fuse3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmd0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libip6tc2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libisc-export1105
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpdec3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libprocps8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapt-pkg6.0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfido2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcrypt1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwebpdemux2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaom0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: systemd-timesyncd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libperl5.32
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libuv1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfuse3-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcbor0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnss-nisplus
+Architecture: amd64
+Auto-Installed: 1
+
+Package: pci.ids
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.9-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxxhash0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnss-nis
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtirpc3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdav1d4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-lib2to3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhogweed6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libreadline8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdns-export1110
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgcc-s1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnettle8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmaxminddb0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnsl2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libffi7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: logsave
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjson-c5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libip4tc2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bind9-libs
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-5.10.0-43-amd64
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fontconfig
+Architecture: amd64
+Auto-Installed: 1
+
+Package: telnet
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libperl5.36
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libimath-3-1-29
+Architecture: amd64
+Auto-Installed: 1
+
+Package: zstd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.11
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libffi8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdk-pixbuf2.0-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libidn12
+Architecture: amd64
+Auto-Installed: 1
+
+Package: jp2a
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdatrie1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libthai0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxrender1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus-user-session
+Architecture: amd64
+Auto-Installed: 1
+
+Package: hicolor-icon-theme
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-xcb1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdjvulibre-text
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpango-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnetpbm11
+Architecture: amd64
+Auto-Installed: 1
+
+Package: netpbm
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaom3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: w3m
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx265-199
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcairo2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: imagemagick
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgif7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: x11-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgs10-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus-daemon
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdav1d6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcaca0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfribidi0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libproc2-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtiff6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgs10
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpixman-1-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnumber-compare-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librsvg2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.11-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdk-pixbuf-2.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsepol2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcairo-gobject2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pyparsing
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblerc4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbpf1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libimlib2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtext-glob-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgraphite2-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: util-linux-extra
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap-2.5-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libopenexr-3-1-30
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagickcore-6.q16-6-extra
+Architecture: amd64
+Auto-Installed: 1
+
+Package: w3m-img
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjxl0.7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfontenc1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: caca-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-6.1.0-48-amd64
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsodium23
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsixel-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwmflite-0.2-7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libssl3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpangocairo-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: usrmerge
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhwy1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb-render0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdjvulibre21
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfile-find-rule-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsemanage2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libice6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpangoft2-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.11-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libid3tag0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xfonts-encodings
+Architecture: amd64
+Auto-Installed: 1
+
+Package: toilet-fonts
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjemalloc2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwebp7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: imagemagick-6.q16
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus-session-bus-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libthai-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librsvg2-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjxr-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xfonts-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: cron-daemon-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.11-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: toilet
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsystemd-shared
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libharfbuzz0b
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcbor0.8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb-shm0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgs-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgc1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: perl-modules-5.36
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjxr0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-charset-normalizer
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gcc-12-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsixel1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus-system-bus-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libicu72
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsm6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxt6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libspectre1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdk-pixbuf2.0-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwrap0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: runit-helper
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssh-sftp-server
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ssl-cert
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjansson4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblua5.3-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapache2-mod-php8.2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-opcache
+Architecture: amd64
+Auto-Installed: 1
+
+Package: psmisc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-readline
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-cli
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libonig5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-mysql
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsvtav1enc1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-mbstring
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-curl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxpm4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgav1-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libyuv0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxslt1.1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libabsl20220623
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavif15
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-gd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgd3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librav1e0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php8.2-xml
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtimedate-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-tagset-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-plugin-provider-bzip2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfcgi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-client-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbd-mariadb-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblzo2-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: galera-4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libencode-locale-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-plugin-provider-lzma
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsigsegv2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-server-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblwp-mediatypes-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpfr6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libregexp-ipv6-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gawk
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liburi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfcgi0ldbl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libio-html-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsnappy1v5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libterm-readkey-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liburing2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-date-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-plugin-provider-snappy
+Architecture: amd64
+Auto-Installed: 1
+
+Package: rsync
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-parser-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcgi-fast-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libconfig-inifiles-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmariadb3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libclone-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-plugin-provider-lz4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mariadb-plugin-provider-lzo
+Architecture: amd64
+Auto-Installed: 1
+
+Package: socat
+Architecture: amd64
+Auto-Installed: 1
+
+Package: pv
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-message-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfcgi-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcgi-pm-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: patch
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git-man
+Architecture: amd64
+Auto-Installed: 1
+

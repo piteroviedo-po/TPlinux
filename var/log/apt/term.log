@@ -1,0 +1,12 @@
+
+Log started: 2026-06-02  20:12:22
+Seleccionando el paquete gpm previamente no seleccionado.
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 56796 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../gpm_1.20.7-10+b1_amd64.deb ...
+Desempaquetando gpm (1.20.7-10+b1) ...
+Configurando gpm (1.20.7-10+b1) ...
+
+Creating config file /etc/gpm.conf with new version
+Created symlink /etc/systemd/system/multi-user.target.wants/gpm.service → /lib/systemd/system/gpm.service.
+Procesando disparadores para man-db (2.11.2-2) ...
+Log ended: 2026-06-02  20:12:29

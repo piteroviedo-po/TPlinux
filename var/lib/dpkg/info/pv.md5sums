@@ -1,0 +1,10 @@
+94ecda0d27aff093770198e60b44bcce  usr/bin/pv
+4d42891df6e40d53f546eb0013b75d69  usr/share/doc/pv/README.gz
+2c8d23c7ee8064b2dc99fb1645b08bc1  usr/share/doc/pv/changelog.Debian.gz
+0b531f2c5a50866dbfb9088a89a16d3c  usr/share/doc/pv/changelog.gz
+f865d8c6156b05a8bb859536e4b1b4c6  usr/share/doc/pv/copyright
+0f94b7cbfb710094eaf19238acc5f0a8  usr/share/locale/de/LC_MESSAGES/pv.mo
+be5287511906f0b1ecd09f8299e5e17b  usr/share/locale/fr/LC_MESSAGES/pv.mo
+17bd6e017ccc1a37faa0dcf558eb150a  usr/share/locale/pl/LC_MESSAGES/pv.mo
+2bc42d64e7bf064c64901fb2dc1d37bb  usr/share/locale/pt/LC_MESSAGES/pv.mo
+0f5163a40bc5599c4d2eb33401471a20  usr/share/man/man1/pv.1.gz

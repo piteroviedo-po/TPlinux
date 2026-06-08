@@ -1,0 +1,11 @@
+4e74caee43e377849bf8eaa19aad20c7  usr/bin/findrule
+59d1d32beda80eb792073a9f37c543fa  usr/share/doc/libfile-find-rule-perl/changelog.Debian.gz
+323f1b1cca82a73c9da24ef0168f6690  usr/share/doc/libfile-find-rule-perl/changelog.gz
+3feab659cc9f613274b95d39c404d3d0  usr/share/doc/libfile-find-rule-perl/copyright
+c5a4811e3e4363ae61fdbc62014de43f  usr/share/man/man1/findrule.1p.gz
+064c9a0d2f8b0a9047b3bd31ebd73f5c  usr/share/man/man3/File::Find::Rule.3pm.gz
+22a51c2eb5e4347b295c7b53f03709d1  usr/share/man/man3/File::Find::Rule::Extending.3pm.gz
+c849a4f81fb07412327721f27e8169e5  usr/share/man/man3/File::Find::Rule::Procedural.3pm.gz
+5ea0eec5c8c614f95ed8d89b2418ada6  usr/share/perl5/File/Find/Rule.pm
+b898322edda0c79cba322711a8a48d34  usr/share/perl5/File/Find/Rule/Extending.pod
+3107556651dd9a7241e7df8184a2a115  usr/share/perl5/File/Find/Rule/Procedural.pod

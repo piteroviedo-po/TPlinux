@@ -1,0 +1,14 @@
+0437d49b229b909c148980b50b50f41d  usr/bin/debianbts
+4f20107fd75e18d7511eaa5e68c4157c  usr/lib/python3/dist-packages/debianbts/__init__.py
+9dd68f5e45b5c1461f844171a1e9d077  usr/lib/python3/dist-packages/debianbts/__main__.py
+aeccca9667916a09a106dc1e61679ecf  usr/lib/python3/dist-packages/debianbts/debianbts.py
+8c14544be34c6a8c29d3307a503ad2bc  usr/lib/python3/dist-packages/debianbts/version.py
+1ad5671551c24ea060f08d120f376ed8  usr/lib/python3/dist-packages/python_debianbts-4.0.1.dist-info/METADATA
+441865e867c4648064fe6980753704d1  usr/lib/python3/dist-packages/python_debianbts-4.0.1.dist-info/RECORD
+88f09a0ec874fd86abcb9bc4e265b874  usr/lib/python3/dist-packages/python_debianbts-4.0.1.dist-info/WHEEL
+95b8a0315ba1472fcb4e311108a6fccd  usr/lib/python3/dist-packages/python_debianbts-4.0.1.dist-info/entry_points.txt
+285ee9632b455cdaeb8243819ac5f211  usr/lib/python3/dist-packages/python_debianbts-4.0.1.dist-info/top_level.txt
+ff07183301e827211ec0cc2032918bb8  usr/share/doc/python3-debianbts/README.md
+ca8f4882fd00edb754a6b559e37dea47  usr/share/doc/python3-debianbts/THANKS.txt
+0758db35be8a4886fe4c0ed867c39268  usr/share/doc/python3-debianbts/changelog.gz
+690ffa15905b5d79cf92bbe27e4c28c3  usr/share/doc/python3-debianbts/copyright

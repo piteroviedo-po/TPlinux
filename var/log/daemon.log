@@ -1,0 +1,836 @@
+Dec 14 11:30:46 debian systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 393 (rsyslogd) on client request.
+Dec 14 11:30:46 debian systemd[1]: logrotate.service: Succeeded.
+Dec 14 11:30:46 debian systemd[1]: Finished Rotate log files.
+Dec 14 11:30:47 debian systemd[1]: man-db.service: Succeeded.
+Dec 14 11:30:47 debian systemd[1]: Finished Daily man-db regeneration.
+Dec 14 11:30:47 debian systemd[1]: apt-daily.service: Succeeded.
+Dec 14 11:30:47 debian systemd[1]: Finished Daily apt download activities.
+Dec 14 11:30:47 debian systemd[1]: Starting Daily apt upgrade and clean activities...
+Dec 14 11:30:47 debian systemd[1]: apt-daily-upgrade.service: Succeeded.
+Dec 14 11:30:47 debian systemd[1]: Finished Daily apt upgrade and clean activities.
+Dec 14 11:30:52 debian avahi-autoipd(enp0s3)[5019]: Callout BIND, address 169.254.7.85 on interface enp0s3
+Dec 14 11:30:56 debian avahi-autoipd(enp0s3)[5019]: Successfully claimed IP address 169.254.7.85
+Dec 14 11:30:56 debian avahi-autoipd(enp0s3)[5019]: Got SIGTERM, quitting.
+Dec 14 11:30:56 debian avahi-autoipd(enp0s3)[5019]: Callout STOP, address 169.254.7.85 on interface enp0s3
+Dec 14 11:30:57 debian dhclient[447]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7
+Dec 14 11:30:57 debian dhclient[447]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 11:30:57 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 11:30:57 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 11:30:57 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1366 seconds.
+Dec 14 11:35:46 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 11:53:43 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 11:53:43 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 11:53:43 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1480 seconds.
+Dec 14 12:18:23 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 12:18:23 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 12:18:23 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1712 seconds.
+Dec 14 12:34:29 debian systemd[1]: Started Run anacron jobs.
+Dec 14 12:34:29 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 12:46:55 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 12:46:55 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 12:46:55 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1792 seconds.
+Dec 14 13:16:47 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 13:16:47 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 13:16:48 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1597 seconds.
+Dec 14 13:34:49 debian systemd[1]: Started Run anacron jobs.
+Dec 14 13:34:49 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 13:43:25 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 13:43:25 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 13:43:25 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1430 seconds.
+Dec 14 14:07:15 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 14:07:15 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 14:07:15 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1353 seconds.
+Dec 14 14:14:21 debian systemd[1]: Started Session 69 of user root.
+Dec 14 16:41:18 debian systemd[1]: Started Run anacron jobs.
+Dec 14 16:41:18 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 16:41:18 debian avahi-autoipd(enp0s3)[5923]: Found user 'avahi-autoipd' (UID 105) and group 'avahi-autoipd' (GID 112).
+Dec 14 16:41:18 debian avahi-autoipd(enp0s3)[5923]: Successfully called chroot().
+Dec 14 16:41:18 debian avahi-autoipd(enp0s3)[5923]: Successfully dropped root privileges.
+Dec 14 16:41:18 debian avahi-autoipd(enp0s3)[5923]: Starting with address 169.254.7.85
+Dec 14 16:41:23 debian avahi-autoipd(enp0s3)[5923]: Callout BIND, address 169.254.7.85 on interface enp0s3
+Dec 14 16:41:27 debian avahi-autoipd(enp0s3)[5923]: Successfully claimed IP address 169.254.7.85
+Dec 14 16:41:27 debian avahi-autoipd(enp0s3)[5923]: Got SIGTERM, quitting.
+Dec 14 16:41:27 debian avahi-autoipd(enp0s3)[5923]: Callout STOP, address 169.254.7.85 on interface enp0s3
+Dec 14 16:41:27 debian dhclient[447]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 7
+Dec 14 16:41:34 debian dhclient[447]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 13
+Dec 14 16:41:34 debian dhclient[447]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 16:41:34 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 16:41:34 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 16:41:34 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1259 seconds.
+Dec 14 17:02:33 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 17:02:33 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 17:02:33 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1651 seconds.
+Dec 14 17:30:04 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 17:30:04 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 17:30:04 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1618 seconds.
+Dec 14 17:32:03 debian systemd[1]: Started Run anacron jobs.
+Dec 14 17:32:03 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 17:57:02 debian dhclient[447]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 192.168.0.1 port 67
+Dec 14 17:57:02 debian dhclient[447]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 17:57:02 debian dhclient[447]: bound to 192.168.0.250 -- renewal in 1643 seconds.
+Dec 14 18:13:20 debian systemd[1]: Stopping OpenBSD Secure Shell server...
+Dec 14 18:13:20 debian systemd[1]: ssh.service: Succeeded.
+Dec 14 18:13:20 debian systemd[1]: Stopped OpenBSD Secure Shell server.
+Dec 14 18:13:21 debian systemd[1]: Reloading.
+Dec 14 18:13:21 debian systemd[1]: Reloading.
+Dec 14 18:13:21 debian systemd[1]: Reloading.
+Dec 14 18:13:21 debian systemd[1]: Reloading.
+Dec 14 18:13:21 debian systemd[1]: Reloading.
+Dec 14 18:13:22 debian systemd[1]: Reloading.
+Dec 14 18:13:22 debian systemd[1]: Reloading.
+Dec 14 18:13:22 debian systemd[1]: Reloading.
+Dec 14 18:15:22 debian systemd[1]: Stopping Session 2 of user root.
+Dec 14 18:15:22 debian systemd[1]: Stopping Session 69 of user root.
+Dec 14 18:15:22 debian systemd[1]: Removed slice system-modprobe.slice.
+Dec 14 18:15:22 debian systemd[1]: Stopped target Graphical Interface.
+Dec 14 18:15:22 debian systemd[1]: Stopped target Multi-User System.
+Dec 14 18:15:22 debian systemd[1]: Stopped target Login Prompts.
+Dec 14 18:15:22 debian systemd[1]: Stopped target Sound Card.
+Dec 14 18:15:22 debian systemd[1]: Stopped target Timers.
+Dec 14 18:15:22 debian systemd[1]: anacron.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Trigger anacron every hour.
+Dec 14 18:15:22 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Dec 14 18:15:22 debian systemd[1]: apt-daily.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Daily apt download activities.
+Dec 14 18:15:22 debian systemd[1]: e2scrub_all.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Dec 14 18:15:22 debian systemd[1]: logrotate.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Daily rotation of log files.
+Dec 14 18:15:22 debian systemd[1]: man-db.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Daily man-db regeneration.
+Dec 14 18:15:22 debian systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Dec 14 18:15:22 debian systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Dec 14 18:15:22 debian systemd[1]: Stopped target System Time Synchronized.
+Dec 14 18:15:22 debian systemd[1]: Stopped target System Time Set.
+Dec 14 18:15:22 debian systemd[1]: Stopping Regular background program processing daemon...
+Dec 14 18:18:47 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Dec 14 18:18:47 debian systemd[1]: Finished Create Static Device Nodes in /dev.
+Dec 14 18:18:47 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Dec 14 18:18:47 debian systemd[1]: Finished Coldplug All udev Devices.
+Dec 14 18:18:47 debian systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Dec 14 18:18:47 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+Dec 14 18:18:47 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Dec 14 18:18:47 debian systemd[1]: Finished Set the console keyboard layout.
+Dec 14 18:18:47 debian systemd[1]: Reached target Local File Systems (Pre).
+Dec 14 18:18:47 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+Dec 14 18:18:47 debian systemd-udevd[224]: Using default interface naming scheme 'v247'.
+Dec 14 18:18:47 debian systemd-udevd[224]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 14 18:18:47 debian systemd-udevd[225]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 14 18:18:47 debian systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+Dec 14 18:18:47 debian systemd[1]: Found device VBOX_HARDDISK 1.
+Dec 14 18:18:47 debian systemd[1]: Mounting /home...
+Dec 14 18:18:47 debian systemd[1]: Mounted /home.
+Dec 14 18:18:47 debian systemd[1]: Reached target Local File Systems.
+Dec 14 18:18:47 debian systemd[1]: Starting Load AppArmor profiles...
+Dec 14 18:18:47 debian systemd[1]: Starting Set console font and keymap...
+Dec 14 18:18:47 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Dec 14 18:18:47 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Dec 14 18:18:47 debian systemd[1]: Starting Create Volatile Files and Directories...
+Dec 14 18:18:47 debian systemd[1]: Finished Set console font and keymap.
+Dec 14 18:18:47 debian systemd[1]: Found device VBOX_HARDDISK 5.
+Dec 14 18:18:47 debian systemd[1]: Activating swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3...
+Dec 14 18:18:47 debian systemd[1]: Finished Create Volatile Files and Directories.
+Dec 14 18:18:47 debian apparmor.systemd[292]: Restarting AppArmor
+Dec 14 18:18:47 debian apparmor.systemd[292]: Reloading AppArmor profiles
+Dec 14 18:18:47 debian systemd[1]: Starting Network Time Synchronization...
+Dec 14 18:18:47 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Dec 14 18:18:47 debian systemd[1]: Activated swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3.
+Dec 14 18:18:47 debian systemd[1]: Reached target Swap.
+Dec 14 18:18:47 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Dec 14 18:18:47 debian systemd[1]: Finished Load AppArmor profiles.
+Dec 14 18:18:47 debian systemd[1]: Started ifup for enp0s3.
+Dec 14 18:18:47 debian systemd[1]: Starting Raise network interfaces...
+Dec 14 18:18:47 debian systemd[1]: Started Network Time Synchronization.
+Dec 14 18:18:47 debian systemd[1]: Reached target System Initialization.
+Dec 14 18:18:47 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+Dec 14 18:18:47 debian systemd[1]: Reached target System Time Set.
+Dec 14 18:18:47 debian systemd[1]: Reached target System Time Synchronized.
+Dec 14 18:18:47 debian systemd[1]: Started Trigger anacron every hour.
+Dec 14 18:18:47 debian systemd[1]: Started Daily apt download activities.
+Dec 14 18:18:47 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Dec 14 18:18:47 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Dec 14 18:18:47 debian systemd[1]: Started Daily rotation of log files.
+Dec 14 18:18:47 debian systemd[1]: Started Daily man-db regeneration.
+Dec 14 18:18:47 debian systemd[1]: Reached target Timers.
+Dec 14 18:18:47 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+Dec 14 18:18:47 debian systemd[1]: Listening on UUID daemon activation socket.
+Dec 14 18:18:47 debian systemd[1]: Reached target Sockets.
+Dec 14 18:18:47 debian systemd[1]: Reached target Basic System.
+Dec 14 18:18:47 debian systemd[1]: Started Run anacron jobs.
+Dec 14 18:18:47 debian systemd[1]: Started Regular background program processing daemon.
+Dec 14 18:18:47 debian systemd[1]: Started D-Bus System Message Bus.
+Dec 14 18:18:47 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Dec 14 18:18:47 debian systemd[1]: Starting Genera hash de curso en /etc/hash (solo primera vez)...
+Dec 14 18:18:47 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Dec 14 18:18:47 debian systemd[1]: Starting System Logging Service...
+Dec 14 18:18:47 debian systemd[1]: Starting User Login Management...
+Dec 14 18:18:47 debian systemd[1]: Starting WPA supplicant...
+Dec 14 18:18:47 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 18:18:47 debian systemd[1]: Started System Logging Service.
+Dec 14 18:18:47 debian systemd[1]: Started WPA supplicant.
+Dec 14 18:18:47 debian wpa_supplicant[377]: Successfully initialized wpa_supplicant
+Dec 14 18:18:47 debian systemd[1]: Reached target Sound Card.
+Dec 14 18:18:47 debian systemd[1]: Started User Login Management.
+Dec 14 18:18:47 debian dhclient[434]: Internet Systems Consortium DHCP Client 4.4.1
+Dec 14 18:18:47 debian sh[434]: Internet Systems Consortium DHCP Client 4.4.1
+Dec 14 18:18:47 debian sh[434]: Copyright 2004-2018 Internet Systems Consortium.
+Dec 14 18:18:47 debian sh[434]: All rights reserved.
+Dec 14 18:18:47 debian sh[434]: For info, please visit https://www.isc.org/software/dhcp/
+Dec 14 18:18:47 debian dhclient[434]: Copyright 2004-2018 Internet Systems Consortium.
+Dec 14 18:18:47 debian dhclient[434]: All rights reserved.
+Dec 14 18:18:47 debian dhclient[434]: For info, please visit https://www.isc.org/software/dhcp/
+Dec 14 18:18:47 debian dhclient[434]: 
+Dec 14 18:18:47 debian systemd[1]: gen-course-hash.service: Succeeded.
+Dec 14 18:18:47 debian systemd[1]: Finished Genera hash de curso en /etc/hash (solo primera vez).
+Dec 14 18:18:47 debian systemd[1]: e2scrub_reap.service: Succeeded.
+Dec 14 18:18:47 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Dec 14 18:18:47 debian systemd[1]: Finished Raise network interfaces.
+Dec 14 18:18:47 debian systemd[1]: Reached target Network.
+Dec 14 18:18:47 debian systemd[1]: Starting Permit User Sessions...
+Dec 14 18:18:47 debian dhclient[434]: Listening on LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:18:47 debian sh[434]: Listening on LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:18:47 debian sh[434]: Sending on   LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:18:47 debian sh[434]: Sending on   Socket/fallback
+Dec 14 18:18:47 debian sh[434]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 8
+Dec 14 18:18:47 debian dhclient[434]: Sending on   LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:18:47 debian dhclient[434]: Sending on   Socket/fallback
+Dec 14 18:18:47 debian dhclient[434]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 8
+Dec 14 18:18:47 debian systemd[1]: Finished Permit User Sessions.
+Dec 14 18:18:47 debian systemd[1]: Started Getty on tty1.
+Dec 14 18:18:47 debian systemd[1]: Reached target Login Prompts.
+Dec 14 18:18:47 debian systemd[1]: Reached target Multi-User System.
+Dec 14 18:18:47 debian systemd[1]: Reached target Graphical Interface.
+Dec 14 18:18:47 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Dec 14 18:18:47 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Dec 14 18:18:47 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Dec 14 18:18:47 debian systemd[1]: Startup finished in 1.998s (kernel) + 797ms (userspace) = 2.795s.
+Dec 14 18:18:51 debian systemd[1]: Created slice User Slice of UID 0.
+Dec 14 18:18:51 debian systemd[1]: Starting User Runtime Directory /run/user/0...
+Dec 14 18:18:51 debian systemd[1]: Finished User Runtime Directory /run/user/0.
+Dec 14 18:18:51 debian systemd[1]: Starting User Manager for UID 0...
+Dec 14 18:18:51 debian systemd[481]: Queued start job for default target Main User Target.
+Dec 14 18:18:51 debian systemd[481]: Reached target Paths.
+Dec 14 18:18:51 debian systemd[481]: Reached target Sockets.
+Dec 14 18:18:51 debian systemd[481]: Reached target Timers.
+Dec 14 18:18:51 debian systemd[481]: Reached target Basic System.
+Dec 14 18:18:51 debian systemd[481]: Reached target Main User Target.
+Dec 14 18:18:51 debian systemd[481]: Startup finished in 47ms.
+Dec 14 18:18:51 debian systemd[1]: Started User Manager for UID 0.
+Dec 14 18:18:51 debian systemd[1]: Started Session 2 of user root.
+Dec 14 18:18:55 debian dhclient[434]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 13
+Dec 14 18:18:55 debian sh[434]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 13
+Dec 14 18:18:56 debian dhclient[434]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 18:18:56 debian sh[434]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 18:18:56 debian sh[434]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 18:18:56 debian dhclient[434]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 18:18:56 debian dhclient[434]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 18:18:56 debian sh[434]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 18:18:56 debian dhclient[434]: bound to 192.168.0.250 -- renewal in 1503 seconds.
+Dec 14 18:18:56 debian sh[434]: bound to 192.168.0.250 -- renewal in 1503 seconds.
+Dec 14 18:18:56 debian sh[519]: enp0s3=enp0s3
+Dec 14 18:26:10 debian systemd[1]: Stopping Session 2 of user root.
+Dec 14 18:26:10 debian systemd[1]: Removed slice system-modprobe.slice.
+Dec 14 18:26:10 debian systemd[1]: Stopped target Graphical Interface.
+Dec 14 18:26:10 debian systemd[1]: Stopped target Multi-User System.
+Dec 14 18:26:10 debian systemd[1]: Stopped target Login Prompts.
+Dec 14 18:26:10 debian systemd[1]: Stopped target Sound Card.
+Dec 14 18:26:10 debian systemd[1]: Stopped target Timers.
+Dec 14 18:26:10 debian systemd[1]: anacron.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Trigger anacron every hour.
+Dec 14 18:26:10 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Dec 14 18:26:10 debian systemd[1]: apt-daily.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Daily apt download activities.
+Dec 14 18:26:10 debian systemd[1]: e2scrub_all.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Dec 14 18:26:10 debian systemd[1]: logrotate.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Daily rotation of log files.
+Dec 14 18:26:10 debian systemd[1]: man-db.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Daily man-db regeneration.
+Dec 14 18:26:10 debian systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Dec 14 18:26:10 debian systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Dec 14 18:26:10 debian systemd[1]: Stopped target System Time Synchronized.
+Dec 14 18:26:10 debian systemd[1]: Stopped target System Time Set.
+Dec 14 18:26:10 debian systemd[1]: Stopping Regular background program processing daemon...
+Dec 14 18:26:10 debian systemd[1]: Stopping Getty on tty1...
+Dec 14 18:26:20 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Dec 14 18:26:20 debian systemd[1]: Finished Coldplug All udev Devices.
+Dec 14 18:26:20 debian systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Dec 14 18:26:20 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Dec 14 18:26:20 debian systemd[1]: Finished Create Static Device Nodes in /dev.
+Dec 14 18:26:20 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Dec 14 18:26:20 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+Dec 14 18:26:20 debian systemd[1]: Finished Set the console keyboard layout.
+Dec 14 18:26:20 debian systemd[1]: Reached target Local File Systems (Pre).
+Dec 14 18:26:20 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+Dec 14 18:26:20 debian systemd-udevd[236]: Using default interface naming scheme 'v247'.
+Dec 14 18:26:20 debian systemd-udevd[236]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 14 18:26:20 debian systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+Dec 14 18:26:20 debian systemd-udevd[234]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Dec 14 18:26:20 debian systemd[1]: Found device VBOX_HARDDISK 5.
+Dec 14 18:26:20 debian systemd[1]: Activating swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3...
+Dec 14 18:26:20 debian systemd[1]: Found device VBOX_HARDDISK 1.
+Dec 14 18:26:20 debian systemd[1]: Mounting /home...
+Dec 14 18:26:20 debian systemd[1]: Mounted /home.
+Dec 14 18:26:20 debian systemd[1]: Reached target Local File Systems.
+Dec 14 18:26:20 debian systemd[1]: Starting Load AppArmor profiles...
+Dec 14 18:26:20 debian systemd[1]: Starting Set console font and keymap...
+Dec 14 18:26:20 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Dec 14 18:26:20 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Dec 14 18:26:20 debian systemd[1]: Starting Create Volatile Files and Directories...
+Dec 14 18:26:20 debian systemd[1]: Activated swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3.
+Dec 14 18:26:20 debian systemd[1]: Reached target Swap.
+Dec 14 18:26:20 debian systemd[1]: Finished Set console font and keymap.
+Dec 14 18:26:20 debian apparmor.systemd[315]: Restarting AppArmor
+Dec 14 18:26:20 debian apparmor.systemd[315]: Reloading AppArmor profiles
+Dec 14 18:26:20 debian systemd[1]: Finished Create Volatile Files and Directories.
+Dec 14 18:26:20 debian systemd[1]: Starting Network Time Synchronization...
+Dec 14 18:26:20 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Dec 14 18:26:20 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Dec 14 18:26:20 debian systemd[1]: Finished Load AppArmor profiles.
+Dec 14 18:26:20 debian systemd[1]: Started ifup for enp0s3.
+Dec 14 18:26:20 debian systemd[1]: Starting Raise network interfaces...
+Dec 14 18:26:20 debian systemd[1]: Started Network Time Synchronization.
+Dec 14 18:26:20 debian systemd[1]: Reached target System Initialization.
+Dec 14 18:26:20 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+Dec 14 18:26:20 debian systemd[1]: Reached target System Time Set.
+Dec 14 18:26:20 debian systemd[1]: Reached target System Time Synchronized.
+Dec 14 18:26:20 debian systemd[1]: Started Trigger anacron every hour.
+Dec 14 18:26:20 debian systemd[1]: Started Daily apt download activities.
+Dec 14 18:26:20 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Dec 14 18:26:20 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Dec 14 18:26:20 debian systemd[1]: Started Daily rotation of log files.
+Dec 14 18:26:20 debian systemd[1]: Started Daily man-db regeneration.
+Dec 14 18:26:20 debian systemd[1]: Reached target Timers.
+Dec 14 18:26:20 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+Dec 14 18:26:20 debian systemd[1]: Listening on UUID daemon activation socket.
+Dec 14 18:26:20 debian systemd[1]: Reached target Sockets.
+Dec 14 18:26:20 debian systemd[1]: Reached target Basic System.
+Dec 14 18:26:20 debian systemd[1]: Started Run anacron jobs.
+Dec 14 18:26:20 debian systemd[1]: Started Regular background program processing daemon.
+Dec 14 18:26:20 debian systemd[1]: Started D-Bus System Message Bus.
+Dec 14 18:26:20 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Dec 14 18:26:20 debian systemd[1]: Starting Genera hash de curso en /etc/hash (solo primera vez)...
+Dec 14 18:26:20 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Dec 14 18:26:20 debian systemd[1]: Starting System Logging Service...
+Dec 14 18:26:20 debian systemd[1]: Starting User Login Management...
+Dec 14 18:26:20 debian systemd[1]: Starting WPA supplicant...
+Dec 14 18:26:20 debian systemd[1]: anacron.service: Succeeded.
+Dec 14 18:26:20 debian systemd[1]: Started System Logging Service.
+Dec 14 18:26:20 debian wpa_supplicant[410]: Successfully initialized wpa_supplicant
+Dec 14 18:26:20 debian systemd[1]: Started WPA supplicant.
+Dec 14 18:26:20 debian systemd[1]: Reached target Sound Card.
+Dec 14 18:26:20 debian systemd[1]: Started User Login Management.
+Dec 14 18:26:20 debian systemd[1]: gen-course-hash.service: Succeeded.
+Dec 14 18:26:20 debian systemd[1]: Finished Genera hash de curso en /etc/hash (solo primera vez).
+Dec 14 18:26:20 debian dhclient[442]: Internet Systems Consortium DHCP Client 4.4.1
+Dec 14 18:26:20 debian sh[442]: Internet Systems Consortium DHCP Client 4.4.1
+Dec 14 18:26:20 debian sh[442]: Copyright 2004-2018 Internet Systems Consortium.
+Dec 14 18:26:20 debian sh[442]: All rights reserved.
+Dec 14 18:26:20 debian sh[442]: For info, please visit https://www.isc.org/software/dhcp/
+Dec 14 18:26:20 debian dhclient[442]: Copyright 2004-2018 Internet Systems Consortium.
+Dec 14 18:26:20 debian dhclient[442]: All rights reserved.
+Dec 14 18:26:20 debian dhclient[442]: For info, please visit https://www.isc.org/software/dhcp/
+Dec 14 18:26:20 debian dhclient[442]: 
+Dec 14 18:26:20 debian systemd[1]: Finished Raise network interfaces.
+Dec 14 18:26:20 debian systemd[1]: e2scrub_reap.service: Succeeded.
+Dec 14 18:26:20 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Dec 14 18:26:20 debian systemd[1]: Reached target Network.
+Dec 14 18:26:20 debian systemd[1]: Starting Permit User Sessions...
+Dec 14 18:26:20 debian systemd[1]: Finished Permit User Sessions.
+Dec 14 18:26:20 debian systemd[1]: Started Getty on tty1.
+Dec 14 18:26:20 debian systemd[1]: Reached target Login Prompts.
+Dec 14 18:26:20 debian systemd[1]: Reached target Multi-User System.
+Dec 14 18:26:20 debian systemd[1]: Reached target Graphical Interface.
+Dec 14 18:26:20 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Dec 14 18:26:20 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Dec 14 18:26:20 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Dec 14 18:26:20 debian systemd[1]: Startup finished in 1.890s (kernel) + 840ms (userspace) = 2.730s.
+Dec 14 18:26:20 debian dhclient[442]: Listening on LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:26:20 debian sh[442]: Listening on LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:26:20 debian sh[442]: Sending on   LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:26:20 debian sh[442]: Sending on   Socket/fallback
+Dec 14 18:26:20 debian sh[442]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4
+Dec 14 18:26:20 debian dhclient[442]: Sending on   LPF/enp0s3/08:00:27:06:89:83
+Dec 14 18:26:20 debian dhclient[442]: Sending on   Socket/fallback
+Dec 14 18:26:20 debian dhclient[442]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 4
+Dec 14 18:26:24 debian dhclient[442]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 6
+Dec 14 18:26:24 debian sh[442]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 6
+Dec 14 18:26:25 debian systemd[1]: Created slice User Slice of UID 0.
+Dec 14 18:26:25 debian systemd[1]: Starting User Runtime Directory /run/user/0...
+Dec 14 18:26:25 debian systemd[1]: Finished User Runtime Directory /run/user/0.
+Dec 14 18:26:25 debian systemd[1]: Starting User Manager for UID 0...
+Dec 14 18:26:25 debian systemd[482]: Queued start job for default target Main User Target.
+Dec 14 18:26:25 debian systemd[482]: Reached target Paths.
+Dec 14 18:26:25 debian systemd[482]: Reached target Sockets.
+Dec 14 18:26:25 debian systemd[482]: Reached target Timers.
+Dec 14 18:26:25 debian systemd[482]: Reached target Basic System.
+Dec 14 18:26:25 debian systemd[482]: Reached target Main User Target.
+Dec 14 18:26:25 debian systemd[482]: Startup finished in 44ms.
+Dec 14 18:26:25 debian systemd[1]: Started User Manager for UID 0.
+Dec 14 18:26:25 debian systemd[1]: Started Session 2 of user root.
+Dec 14 18:26:25 debian dhclient[442]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 18:26:25 debian sh[442]: DHCPOFFER of 192.168.0.250 from 192.168.0.1
+Dec 14 18:26:25 debian sh[442]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 18:26:25 debian dhclient[442]: DHCPREQUEST for 192.168.0.250 on enp0s3 to 255.255.255.255 port 67
+Dec 14 18:26:25 debian dhclient[442]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 18:26:25 debian sh[442]: DHCPACK of 192.168.0.250 from 192.168.0.1
+Dec 14 18:26:25 debian dhclient[442]: bound to 192.168.0.250 -- renewal in 1503 seconds.
+Dec 14 18:26:25 debian sh[442]: bound to 192.168.0.250 -- renewal in 1503 seconds.
+Dec 14 18:26:25 debian sh[511]: enp0s3=enp0s3
+Dec 14 18:27:54 debian systemd[1]: Stopping Session 2 of user root.
+Dec 14 18:27:54 debian systemd[1]: Removed slice system-modprobe.slice.
+Dec 14 18:27:54 debian systemd[1]: Stopped target Graphical Interface.
+Dec 14 18:27:54 debian systemd[1]: Stopped target Multi-User System.
+Dec 14 18:27:54 debian systemd[1]: Stopped target Login Prompts.
+Dec 14 18:27:54 debian systemd[1]: Stopped target Sound Card.
+Dec 14 18:27:54 debian systemd[1]: Stopped target Timers.
+Dec 14 18:27:54 debian systemd[1]: anacron.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Trigger anacron every hour.
+Dec 14 18:27:54 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Dec 14 18:27:54 debian systemd[1]: apt-daily.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Daily apt download activities.
+Dec 14 18:27:54 debian systemd[1]: e2scrub_all.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Dec 14 18:27:54 debian systemd[1]: logrotate.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Daily rotation of log files.
+Dec 14 18:27:54 debian systemd[1]: man-db.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Daily man-db regeneration.
+Dec 14 18:27:54 debian systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Dec 14 18:27:54 debian systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Dec 14 18:27:54 debian systemd[1]: Stopped target System Time Synchronized.
+Dec 14 18:27:54 debian systemd[1]: Stopped target System Time Set.
+Dec 14 18:27:54 debian systemd[1]: Stopping Regular background program processing daemon...
+Dec 14 18:27:54 debian systemd[1]: Stopping Getty on tty1...
+May 16 12:10:13 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+May 16 12:10:13 debian systemd[1]: Finished Set the console keyboard layout.
+May 16 12:10:13 debian systemd[1]: Finished Create Static Device Nodes in /dev.
+May 16 12:10:13 debian systemd[1]: Reached target Local File Systems (Pre).
+May 16 12:10:13 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+May 16 12:10:13 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+May 16 12:10:13 debian systemd-udevd[224]: Using default interface naming scheme 'v247'.
+May 16 12:10:13 debian systemd-udevd[224]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May 16 12:10:13 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+May 16 12:10:13 debian systemd-udevd[229]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May 16 12:10:13 debian systemd[1]: Found device VBOX_HARDDISK 5.
+May 16 12:10:13 debian systemd[1]: Activating swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3...
+May 16 12:10:13 debian systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+May 16 12:10:13 debian systemd[1]: Found device VBOX_HARDDISK 1.
+May 16 12:10:13 debian systemd[1]: Activated swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3.
+May 16 12:10:13 debian systemd[1]: Reached target Swap.
+May 16 12:10:13 debian systemd[1]: Mounting /home...
+May 16 12:10:13 debian systemd[1]: Mounted /home.
+May 16 12:10:13 debian systemd[1]: Reached target Local File Systems.
+May 16 12:10:13 debian systemd[1]: Starting Load AppArmor profiles...
+May 16 12:10:13 debian systemd[1]: Starting Set console font and keymap...
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+May 16 12:10:13 debian systemd[1]: Starting Create Volatile Files and Directories...
+May 16 12:10:13 debian systemd[1]: Finished Set console font and keymap.
+May 16 12:10:13 debian systemd[1]: Finished Create Volatile Files and Directories.
+May 16 12:10:13 debian systemd[1]: Starting Network Time Synchronization...
+May 16 12:10:13 debian apparmor.systemd[302]: Restarting AppArmor
+May 16 12:10:13 debian apparmor.systemd[302]: Reloading AppArmor profiles
+May 16 12:10:13 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+May 16 12:10:13 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+May 16 12:10:13 debian systemd[1]: Reached target Sound Card.
+May 16 12:10:13 debian systemd[1]: Finished Load AppArmor profiles.
+May 16 12:10:13 debian systemd[1]: Started ifup for enp0s3.
+May 16 12:10:13 debian systemd[1]: Starting Raise network interfaces...
+May 16 12:10:13 debian systemd[1]: Started Network Time Synchronization.
+May 16 12:10:13 debian systemd[1]: Reached target System Initialization.
+May 16 12:10:13 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 16 12:10:13 debian systemd[1]: Reached target System Time Set.
+May 16 12:10:13 debian systemd[1]: Reached target System Time Synchronized.
+May 16 12:10:13 debian systemd[1]: Started Trigger anacron every hour.
+May 16 12:10:13 debian systemd[1]: Started Daily apt download activities.
+May 16 12:10:13 debian systemd[1]: Started Daily apt upgrade and clean activities.
+May 16 12:10:13 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 12:10:13 debian systemd[1]: Started Daily rotation of log files.
+May 16 12:10:13 debian systemd[1]: Started Daily man-db regeneration.
+May 16 12:10:13 debian systemd[1]: Reached target Timers.
+May 16 12:10:13 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+May 16 12:10:13 debian systemd[1]: Listening on UUID daemon activation socket.
+May 16 12:10:13 debian systemd[1]: Reached target Sockets.
+May 16 12:10:13 debian systemd[1]: Reached target Basic System.
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Run anacron jobs being skipped.
+May 16 12:10:13 debian systemd[1]: Started Regular background program processing daemon.
+May 16 12:10:13 debian systemd[1]: Started D-Bus System Message Bus.
+May 16 12:10:13 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Genera hash de curso en /etc/hash (solo primera vez) being skipped.
+May 16 12:10:13 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+May 16 12:10:13 debian systemd[1]: Starting System Logging Service...
+May 16 12:10:13 debian systemd[1]: Starting User Login Management...
+May 16 12:10:13 debian systemd[1]: Starting WPA supplicant...
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Rotate log files being skipped.
+May 16 12:10:13 debian systemd[1]: Condition check resulted in Daily man-db regeneration being skipped.
+May 16 12:10:13 debian systemd[1]: Started System Logging Service.
+May 16 12:10:13 debian systemd[1]: Started WPA supplicant.
+May 16 12:10:13 debian wpa_supplicant[422]: Successfully initialized wpa_supplicant
+May 16 12:10:13 debian dhclient[433]: Internet Systems Consortium DHCP Client 4.4.1
+May 16 12:10:13 debian sh[433]: Internet Systems Consortium DHCP Client 4.4.1
+May 16 12:10:13 debian sh[433]: Copyright 2004-2018 Internet Systems Consortium.
+May 16 12:10:13 debian sh[433]: All rights reserved.
+May 16 12:10:13 debian sh[433]: For info, please visit https://www.isc.org/software/dhcp/
+May 16 12:10:13 debian dhclient[433]: Copyright 2004-2018 Internet Systems Consortium.
+May 16 12:10:13 debian dhclient[433]: All rights reserved.
+May 16 12:10:13 debian dhclient[433]: For info, please visit https://www.isc.org/software/dhcp/
+May 16 12:10:13 debian dhclient[433]: 
+May 16 12:10:13 debian systemd[1]: e2scrub_reap.service: Succeeded.
+May 16 12:10:13 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+May 16 12:10:13 debian systemd[1]: Started User Login Management.
+May 16 12:10:13 debian systemd[1]: Finished Raise network interfaces.
+May 16 12:10:13 debian systemd[1]: Reached target Network.
+May 16 12:10:13 debian systemd[1]: Starting Permit User Sessions...
+May 16 12:10:13 debian systemd[1]: Finished Permit User Sessions.
+May 16 12:10:13 debian systemd[1]: Started Getty on tty1.
+May 16 12:10:13 debian dhclient[433]: Listening on LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:10:13 debian sh[433]: Listening on LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:10:13 debian sh[433]: Sending on   LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:10:13 debian sh[433]: Sending on   Socket/fallback
+May 16 12:10:13 debian sh[433]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3
+May 16 12:10:13 debian dhclient[433]: Sending on   LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:10:13 debian systemd[1]: Reached target Login Prompts.
+May 16 12:10:13 debian dhclient[433]: Sending on   Socket/fallback
+May 16 12:10:13 debian systemd[1]: Reached target Multi-User System.
+May 16 12:10:13 debian dhclient[433]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3
+May 16 12:10:13 debian systemd[1]: Reached target Graphical Interface.
+May 16 12:10:13 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+May 16 12:10:13 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+May 16 12:10:13 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+May 16 12:10:13 debian systemd[1]: Startup finished in 5.245s (kernel) + 4.447s (userspace) = 9.693s.
+May 16 12:10:14 debian dhclient[433]: DHCPOFFER of 192.168.1.55 from 192.168.1.1
+May 16 12:10:14 debian sh[433]: DHCPOFFER of 192.168.1.55 from 192.168.1.1
+May 16 12:10:14 debian sh[433]: DHCPREQUEST for 192.168.1.55 on enp0s3 to 255.255.255.255 port 67
+May 16 12:10:14 debian dhclient[433]: DHCPREQUEST for 192.168.1.55 on enp0s3 to 255.255.255.255 port 67
+May 16 12:10:14 debian dhclient[433]: DHCPACK of 192.168.1.55 from 192.168.1.1
+May 16 12:10:14 debian sh[433]: DHCPACK of 192.168.1.55 from 192.168.1.1
+May 16 12:10:14 debian dhclient[433]: bound to 192.168.1.55 -- renewal in 10855 seconds.
+May 16 12:10:14 debian sh[433]: bound to 192.168.1.55 -- renewal in 10855 seconds.
+May 16 12:10:14 debian sh[485]: enp0s3=enp0s3
+May 16 12:10:43 debian systemd[1]: Condition check resulted in Online ext4 Metadata Check for All Filesystems being skipped.
+May 16 12:10:47 debian systemd[1]: Removed slice system-modprobe.slice.
+May 16 12:10:47 debian systemd[1]: Stopped target Graphical Interface.
+May 16 12:10:47 debian systemd[1]: Stopped target Multi-User System.
+May 16 12:10:47 debian systemd[1]: Stopped target Login Prompts.
+May 16 12:10:47 debian systemd[1]: Stopped target Sound Card.
+May 16 12:10:47 debian systemd[1]: Stopped target Timers.
+May 16 12:10:47 debian systemd[1]: anacron.timer: Succeeded.
+May 16 12:10:47 debian systemd[1]: Stopped Trigger anacron every hour.
+May 16 12:10:47 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+May 16 12:10:47 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+May 16 12:10:47 debian systemd[1]: apt-daily.timer: Succeeded.
+May 16 12:10:47 debian systemd[1]: Stopped Daily apt download activities.
+May 16 12:10:47 debian systemd[1]: e2scrub_all.timer: Succeeded.
+May 16 12:14:00 debian systemd[1]: Started Daily apt upgrade and clean activities.
+May 16 12:14:00 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 12:14:00 debian systemd[1]: Started Daily rotation of log files.
+May 16 12:14:00 debian systemd[1]: Started Daily man-db regeneration.
+May 16 12:14:00 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in First Boot Complete being skipped.
+May 16 12:14:00 debian systemd[1]: Reached target Paths.
+May 16 12:14:00 debian systemd[1]: Reached target Remote File Systems.
+May 16 12:14:00 debian systemd[1]: Stopped target Rescue Mode.
+May 16 12:14:00 debian systemd[1]: Reached target Slices.
+May 16 12:14:00 debian systemd[1]: Stopped target Sound Card.
+May 16 12:14:00 debian systemd[1]: Reached target Timers.
+May 16 12:14:00 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+May 16 12:14:00 debian systemd[1]: Listening on Syslog Socket.
+May 16 12:14:00 debian systemd[1]: Listening on initctl Compatibility Named Pipe.
+May 16 12:14:00 debian systemd[1]: Listening on UUID daemon activation socket.
+May 16 12:14:00 debian systemd[1]: Reached target Sockets.
+May 16 12:14:00 debian systemd[1]: Reached target Basic System.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Run anacron jobs being skipped.
+May 16 12:14:00 debian systemd[1]: Starting Set console font and keymap...
+May 16 12:14:00 debian systemd[1]: Started Regular background program processing daemon.
+May 16 12:14:00 debian systemd[1]: Started D-Bus System Message Bus.
+May 16 12:14:00 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Genera hash de curso en /etc/hash (solo primera vez) being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+May 16 12:14:00 debian systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+May 16 12:14:00 debian systemd[1]: Starting Load Kernel Module configfs...
+May 16 12:14:00 debian systemd[1]: Starting Load Kernel Module drm...
+May 16 12:14:00 debian systemd[1]: Starting Load Kernel Module fuse...
+May 16 12:14:00 debian systemd[1]: Starting System Logging Service...
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+May 16 12:14:00 debian systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+May 16 12:14:00 debian systemd[1]: Starting WPA supplicant...
+May 16 12:14:00 debian systemd[1]: Finished Set console font and keymap.
+May 16 12:14:00 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+May 16 12:14:00 debian systemd[1]: modprobe@configfs.service: Succeeded.
+May 16 12:14:00 debian systemd[1]: Finished Load Kernel Module configfs.
+May 16 12:14:00 debian systemd[1]: modprobe@drm.service: Succeeded.
+May 16 12:14:00 debian systemd[1]: Finished Load Kernel Module drm.
+May 16 12:14:00 debian systemd[1]: modprobe@fuse.service: Succeeded.
+May 16 12:14:00 debian systemd[1]: Finished Load Kernel Module fuse.
+May 16 12:14:00 debian systemd[1]: Started System Logging Service.
+May 16 12:14:00 debian systemd[1]: Starting Raise network interfaces...
+May 16 12:14:00 debian systemd[1]: Starting User Login Management...
+May 16 12:14:00 debian systemd[1]: Started WPA supplicant.
+May 16 12:14:00 debian wpa_supplicant[456]: Successfully initialized wpa_supplicant
+May 16 12:14:00 debian systemd[1]: e2scrub_reap.service: Succeeded.
+May 16 12:14:00 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+May 16 12:14:00 debian systemd[1]: Started User Login Management.
+May 16 12:14:00 debian systemd[1]: Finished Raise network interfaces.
+May 16 12:14:00 debian systemd[1]: Reached target Network.
+May 16 12:14:00 debian systemd[1]: Starting Permit User Sessions...
+May 16 12:14:00 debian systemd[1]: Finished Permit User Sessions.
+May 16 12:14:00 debian systemd[1]: Started Getty on tty1.
+May 16 12:14:00 debian systemd[1]: Reached target Login Prompts.
+May 16 12:14:00 debian systemd[1]: Reached target Multi-User System.
+May 16 12:14:00 debian systemd[1]: Reached target Graphical Interface.
+May 16 12:14:00 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+May 16 12:14:00 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+May 16 12:14:00 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+                                                                                                                                                                                                                                                                                             May 16 12:27:42 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+May 16 12:27:42 debian systemd[1]: Finished Set the console keyboard layout.
+May 16 12:27:42 debian systemd[1]: Reached target Local File Systems (Pre).
+May 16 12:27:42 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+May 16 12:27:42 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+May 16 12:27:42 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+May 16 12:27:42 debian systemd-udevd[226]: Using default interface naming scheme 'v247'.
+May 16 12:27:42 debian systemd-udevd[226]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May 16 12:27:42 debian systemd-udevd[238]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+May 16 12:27:42 debian systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+May 16 12:27:42 debian systemd[1]: Found device VBOX_HARDDISK 5.
+May 16 12:27:42 debian systemd[1]: Activating swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3...
+May 16 12:27:42 debian systemd[1]: Found device VBOX_HARDDISK 1.
+May 16 12:27:42 debian systemd[1]: Mounting /home...
+May 16 12:27:42 debian systemd[1]: Mounted /home.
+May 16 12:27:42 debian systemd[1]: Reached target Local File Systems.
+May 16 12:27:42 debian systemd[1]: Starting Load AppArmor profiles...
+May 16 12:27:42 debian systemd[1]: Starting Set console font and keymap...
+May 16 12:27:42 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+May 16 12:27:42 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+May 16 12:27:42 debian systemd[1]: Starting Create Volatile Files and Directories...
+May 16 12:27:42 debian systemd[1]: Activated swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3.
+May 16 12:27:42 debian systemd[1]: Reached target Swap.
+May 16 12:27:42 debian systemd[1]: Finished Set console font and keymap.
+May 16 12:27:42 debian systemd[1]: Finished Create Volatile Files and Directories.
+May 16 12:27:42 debian systemd[1]: Starting Network Time Synchronization...
+May 16 12:27:42 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+May 16 12:27:42 debian apparmor.systemd[324]: Restarting AppArmor
+May 16 12:27:42 debian apparmor.systemd[324]: Reloading AppArmor profiles
+May 16 12:27:42 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+May 16 12:27:42 debian systemd[1]: Reached target Sound Card.
+May 16 12:27:42 debian systemd[1]: Started Network Time Synchronization.
+May 16 12:27:42 debian systemd[1]: Reached target System Time Set.
+May 16 12:27:42 debian systemd[1]: Reached target System Time Synchronized.
+May 16 12:27:42 debian systemd[1]: Finished Load AppArmor profiles.
+May 16 12:27:42 debian systemd[1]: Reached target System Initialization.
+May 16 12:27:42 debian systemd[1]: Started Trigger anacron every hour.
+May 16 12:27:42 debian systemd[1]: Started Daily apt download activities.
+May 16 12:27:42 debian systemd[1]: Started Daily apt upgrade and clean activities.
+May 16 12:27:42 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 12:27:42 debian systemd[1]: Started Daily rotation of log files.
+May 16 12:27:42 debian systemd[1]: Started Daily man-db regeneration.
+May 16 12:27:42 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 16 12:27:42 debian systemd[1]: Reached target Timers.
+May 16 12:27:42 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+May 16 12:27:42 debian systemd[1]: Listening on UUID daemon activation socket.
+May 16 12:27:42 debian systemd[1]: Reached target Sockets.
+May 16 12:27:42 debian systemd[1]: Reached target Basic System.
+May 16 12:27:42 debian systemd[1]: Condition check resulted in Run anacron jobs being skipped.
+May 16 12:27:42 debian systemd[1]: Started Regular background program processing daemon.
+May 16 12:27:42 debian systemd[1]: Started D-Bus System Message Bus.
+May 16 12:27:42 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+May 16 12:27:42 debian systemd[1]: Condition check resulted in Genera hash de curso en /etc/hash (solo primera vez) being skipped.
+May 16 12:27:42 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+May 16 12:27:42 debian systemd[1]: Started ifup for enp0s3.
+May 16 12:27:42 debian systemd[1]: Starting Raise network interfaces...
+May 16 12:27:42 debian systemd[1]: Starting System Logging Service...
+May 16 12:27:42 debian systemd[1]: Starting User Login Management...
+May 16 12:27:42 debian systemd[1]: Starting WPA supplicant...
+May 16 12:27:42 debian systemd[1]: Started System Logging Service.
+May 16 12:27:42 debian wpa_supplicant[368]: Successfully initialized wpa_supplicant
+May 16 12:27:42 debian systemd[1]: Started WPA supplicant.
+May 16 12:27:42 debian systemd[1]: Started User Login Management.
+May 16 12:27:42 debian dhclient[431]: Internet Systems Consortium DHCP Client 4.4.1
+May 16 12:27:42 debian sh[431]: Internet Systems Consortium DHCP Client 4.4.1
+May 16 12:27:42 debian sh[431]: Copyright 2004-2018 Internet Systems Consortium.
+May 16 12:27:42 debian sh[431]: All rights reserved.
+May 16 12:27:42 debian sh[431]: For info, please visit https://www.isc.org/software/dhcp/
+May 16 12:27:42 debian dhclient[431]: Copyright 2004-2018 Internet Systems Consortium.
+May 16 12:27:42 debian dhclient[431]: All rights reserved.
+May 16 12:27:42 debian dhclient[431]: For info, please visit https://www.isc.org/software/dhcp/
+May 16 12:27:42 debian dhclient[431]: 
+May 16 12:27:42 debian systemd[1]: e2scrub_reap.service: Succeeded.
+May 16 12:27:42 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+May 16 12:27:42 debian systemd[1]: Finished Raise network interfaces.
+May 16 12:27:42 debian systemd[1]: Reached target Network.
+May 16 12:27:42 debian systemd[1]: Starting Permit User Sessions...
+May 16 12:27:42 debian systemd[1]: Finished Permit User Sessions.
+May 16 12:27:42 debian systemd[1]: Started Getty on tty1.
+May 16 12:27:42 debian systemd[1]: Reached target Login Prompts.
+May 16 12:27:42 debian systemd[1]: Reached target Multi-User System.
+May 16 12:27:42 debian systemd[1]: Reached target Graphical Interface.
+May 16 12:27:42 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+May 16 12:27:42 debian dhclient[431]: Listening on LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:27:42 debian sh[431]: Listening on LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:27:42 debian sh[431]: Sending on   LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:27:42 debian sh[431]: Sending on   Socket/fallback
+May 16 12:27:42 debian sh[431]: DHCPREQUEST for 192.168.1.55 on enp0s3 to 255.255.255.255 port 67
+May 16 12:27:42 debian dhclient[431]: Sending on   LPF/enp0s3/08:00:27:5c:cd:61
+May 16 12:27:42 debian dhclient[431]: Sending on   Socket/fallback
+May 16 12:27:42 debian dhclient[431]: DHCPREQUEST for 192.168.1.55 on enp0s3 to 255.255.255.255 port 67
+May 16 12:27:42 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+May 16 12:27:42 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+May 16 12:27:42 debian systemd[1]: Startup finished in 3.910s (kernel) + 3.714s (userspace) = 7.624s.
+May 16 12:27:42 debian dhclient[431]: DHCPACK of 192.168.1.55 from 192.168.1.1
+May 16 12:27:42 debian sh[431]: DHCPACK of 192.168.1.55 from 192.168.1.1
+May 16 12:27:43 debian dhclient[431]: bound to 192.168.1.55 -- renewal in 12239 seconds.
+May 16 12:27:43 debian sh[431]: bound to 192.168.1.55 -- renewal in 12239 seconds.
+May 16 12:27:43 debian sh[483]: enp0s3=enp0s3
+May 16 12:27:48 debian systemd[1]: Created slice User Slice of UID 0.
+May 16 12:27:48 debian systemd[1]: Starting User Runtime Directory /run/user/0...
+May 16 12:27:48 debian systemd[1]: Finished User Runtime Directory /run/user/0.
+May 16 12:27:48 debian systemd[1]: Starting User Manager for UID 0...
+May 16 12:27:49 debian systemd[489]: Queued start job for default target Main User Target.
+May 16 12:27:49 debian systemd[489]: Reached target Paths.
+May 16 12:27:49 debian systemd[489]: Reached target Sockets.
+May 16 12:27:49 debian systemd[489]: Reached target Timers.
+May 16 12:27:49 debian systemd[489]: Reached target Basic System.
+May 16 12:27:49 debian systemd[1]: Started User Manager for UID 0.
+May 16 12:27:49 debian systemd[1]: Started Session 2 of user root.
+May 16 12:27:49 debian systemd[489]: Reached target Main User Target.
+May 16 12:27:49 debian systemd[489]: Startup finished in 127ms.
+May 16 12:29:23 debian systemd[1]: Condition check resulted in Run anacron jobs being skipped.
+May 16 12:30:23 debian systemd[1]: Condition check resulted in Daily apt upgrade and clean activities being skipped.
+May 16 12:30:57 debian systemd[1]: Condition check resulted in Run anacron jobs being skipped.
+May 16 12:42:57 debian systemd[1]: Starting Cleanup of Temporary Directories...
+May 16 12:42:57 debian systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+May 16 12:42:57 debian systemd[1]: Finished Cleanup of Temporary Directories.
+May 16 12:59:15 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:15 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:15 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:15 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:18 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:19 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:20 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:20 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:20 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:21 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 12:59:25 debian systemd[1]: Reexecuting.
+May 16 12:59:26 debian systemd[1]: Stopping Flush Journal to Persistent Storage...
+May 16 12:59:26 debian systemd[1]: systemd-journal-flush.service: Succeeded.
+May 16 12:59:26 debian systemd[1]: Stopped Flush Journal to Persistent Storage.
+May 16 12:59:26 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+May 16 12:59:26 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+May 16 13:00:30 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:31 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:31 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:31 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:31 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:40 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:00:40 debian systemd[1]: Reloading.
+May 16 13:00:40 debian systemd[1]: Stopping WPA supplicant...
+May 16 13:00:40 debian systemd[1]: wpa_supplicant.service: Succeeded.
+May 16 13:00:40 debian systemd[1]: Stopped WPA supplicant.
+May 16 13:00:40 debian systemd[1]: Starting WPA supplicant...
+May 16 13:00:40 debian systemd[1]: Started WPA supplicant.
+May 16 13:00:40 debian wpa_supplicant[5231]: Successfully initialized wpa_supplicant
+May 16 13:00:41 debian systemd[1]: Reloading.
+May 16 13:00:42 debian systemd[1]: Stopping Network Time Synchronization...
+May 16 13:00:42 debian systemd[1]: systemd-timesyncd.service: Succeeded.
+May 16 13:00:42 debian systemd[1]: Stopped Network Time Synchronization.
+May 16 13:00:42 debian systemd[1]: Starting Network Time Synchronization...
+May 16 13:00:42 debian systemd[1]: Started Network Time Synchronization.
+May 16 13:00:43 debian systemd[1]: Reloading.
+May 16 13:00:43 debian systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+May 16 13:00:43 debian systemd[1]: systemd-udevd.service: Succeeded.
+May 16 13:00:43 debian systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+May 16 13:00:43 debian systemd[1]: systemd-udevd.service: Consumed 1.967s CPU time.
+May 16 13:00:43 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+May 16 13:00:43 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+May 16 13:00:43 debian systemd[1]: Reloading.
+May 16 13:00:44 debian systemd[1]: Reloading.
+May 16 13:00:50 debian systemd[1]: Reloading.
+May 16 13:00:50 debian systemd[1]: e2scrub_all.timer: Succeeded.
+May 16 13:00:50 debian systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 13:00:50 debian systemd[1]: Stopping Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 13:00:50 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+May 16 13:00:50 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+May 16 13:00:50 debian systemd[1]: e2scrub_reap.service: Succeeded.
+May 16 13:00:50 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+May 16 13:01:01 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:01:01 debian systemd[1]: Reloading D-Bus System Message Bus.
+May 16 13:01:01 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:01:01 debian dbus-send[9733]: method return time=1778947261.575049 sender=org.freedesktop.DBus -> destination=:1.11 serial=3 reply_serial=2
+May 16 13:01:01 debian systemd[1]: Reloaded D-Bus System Message Bus.
+May 16 13:01:01 debian systemd[1]: Reloading.
+May 16 13:01:02 debian systemd[1]: Reloading.
+May 16 13:01:02 debian systemd[1]: Condition check resulted in Bluetooth service being skipped.
+May 16 13:01:04 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:35 debian systemd[1]: Stopping Regular background program processing daemon...
+May 16 13:28:35 debian systemd[1]: cron.service: Succeeded.
+May 16 13:28:35 debian systemd[1]: Stopped Regular background program processing daemon.
+May 16 13:28:35 debian systemd[1]: Started Regular background program processing daemon.
+May 16 13:28:35 debian systemd[1]: Reexecuting.
+May 16 13:28:35 debian systemd[1]: Starting Daily apt download activities...
+May 16 13:28:35 debian systemd[1]: apt-daily.service: Succeeded.
+May 16 13:28:35 debian systemd[1]: Finished Daily apt download activities.
+May 16 13:28:37 debian systemd[1]: Reloading.
+May 16 13:28:38 debian systemd[1]: Reloading.
+May 16 13:28:38 debian systemd[1]: Reloading.
+May 16 13:28:42 debian systemd[1]: Reloading.
+May 16 13:28:42 debian systemd[1]: Reloading.
+May 16 13:28:42 debian systemd[1]: Started Daily dpkg database backup timer.
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:28:56 debian dbus-daemon[348]: [system] Reloaded configuration
+May 16 13:29:54 debian systemd[1]: Reloading.
+May 16 13:29:54 debian systemd[1]: Reloading.
+May 16 13:29:54 debian systemd[1]: Started Run anacron jobs.
+May 16 13:29:54 debian systemd[1]: anacron.timer: Succeeded.
+May 16 13:29:54 debian systemd[1]: Stopped Trigger anacron every hour.
+May 16 13:29:54 debian systemd[1]: Stopping Trigger anacron every hour.
+May 16 13:29:54 debian systemd[1]: Started Trigger anacron every hour.
+May 16 13:30:01 debian systemd[1]: Reloading.
+May 16 13:30:07 debian systemd[1]: Reloading.
+May 16 13:30:13 debian systemd[1]: Reloading.
+May 16 13:30:13 debian systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+May 16 13:30:13 debian systemd[1]: systemd-udevd.service: Succeeded.
+May 16 13:30:13 debian systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+May 16 13:30:13 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+May 16 13:30:13 debian systemd-udevd[44961]: Using default interface naming scheme 'v252'.
+May 16 13:30:13 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+May 16 13:30:13 debian systemd[1]: Reloading.
+May 16 13:30:14 debian systemd[1]: Reloading.
+May 16 13:30:15 debian systemd[1]: Reloading.
+May 16 13:30:15 debian systemd[1]: Reloading.
+May 16 13:30:15 debian systemd[1]: uuidd.socket: Succeeded.
+May 16 13:30:15 debian systemd[1]: Closed UUID daemon activation socket.
+May 16 13:30:15 debian systemd[1]: Stopping UUID daemon activation socket.
+May 16 13:30:15 debian systemd[1]: Listening on UUID daemon activation socket.
+May 16 13:30:17 debian systemd[1]: Reloading.
+May 16 13:30:17 debian systemd[1]: logrotate.timer: Succeeded.
+May 16 13:30:17 debian systemd[1]: Stopped Daily rotation of log files.
+May 16 13:30:17 debian systemd[1]: Stopping Daily rotation of log files.
+May 16 13:30:17 debian systemd[1]: Started Daily rotation of log files.
+May 16 13:30:18 debian systemd[1]: Reloading.
+May 16 13:30:18 debian systemd[1]: Reloading.
+May 16 13:30:18 debian systemd[1]: Stopping System Logging Service...

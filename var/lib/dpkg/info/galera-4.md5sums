@@ -1,0 +1,6 @@
+9f02fcec7ad20c4313fb92e1b7f96299  usr/lib/libgalera_smm.so
+dd940e9b685677b1cdc9a538178b4fed  usr/share/doc/galera-4/AUTHORS
+1efd47037312b4ec3bae8d8b22a58c78  usr/share/doc/galera-4/README.gz
+01e30438bfca07a868c5c0e494b2fc97  usr/share/doc/galera-4/changelog.Debian.gz
+8741834de80db55417eed17d6ec437d1  usr/share/doc/galera-4/copyright
+f900374f1bfa55e65550ca41ae638c63  usr/share/lintian/overrides/galera-4

@@ -1,0 +1,16 @@
+43a132ad440411dca575c9fcb86ef37e  usr/bin/cacaclock
+f2d3c81d2e212fc327e9488340fea18c  usr/bin/cacademo
+36baa3241723f101cdf8dd46322065e4  usr/bin/cacafire
+ab8320cdee34ee6395d77bc0af303e19  usr/bin/cacaplay
+2246cb53b7a3e261686f4424034b15d5  usr/bin/cacaserver
+8c85615fd7f7bf609346ca2c418dbe30  usr/bin/cacaview
+6889d5ae9744e9894323f5272ef32fd7  usr/bin/img2txt
+2299ac60044a193ac60b7a6a0e35e9ef  usr/lib/mime/packages/caca-utils
+93ef3b967ac1096c01a642bd9d29d79c  usr/share/doc/caca-utils/changelog.Debian.gz
+eff5afb87b4c576cf83933bc418f3ced  usr/share/doc/caca-utils/copyright
+0a391760bc69e8b6493ad833cc5f6f48  usr/share/libcaca/caca.txt
+45d61c6dc9d5c196dc280a3f3f302923  usr/share/man/man1/cacafire.1.gz
+28dd104ac46d7a0fe3a7d8bc94e7803f  usr/share/man/man1/cacaplay.1.gz
+51ed374d564454fbae869a75a5fd91fe  usr/share/man/man1/cacaserver.1.gz
+43dcd43c91b72753a0d9ecbe4c8f4b05  usr/share/man/man1/cacaview.1.gz
+051871cf37a27985b067e9b553fdfc1f  usr/share/man/man1/img2txt.1.gz

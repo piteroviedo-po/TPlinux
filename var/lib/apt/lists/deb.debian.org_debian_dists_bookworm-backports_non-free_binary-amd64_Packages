@@ -1,0 +1,1926 @@
+Package: 7zip-rar
+Version: 25.00+ds-1+deb13u1~bpo12+1
+Installed-Size: 164
+Maintainer: YOKOTA Hiroshi <yokota.hgml@gmail.com>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), 7zip (>= 23.01+dfsg-4~)
+Description: RAR plugin for 7-Zip
+Homepage: https://www.7-zip.org/
+Description-md5: cc6069b72985dc5fdf1be54c87fbc9ae
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/7/7zip-rar/7zip-rar_25.00+ds-1+deb13u1~bpo12+1_amd64.deb
+Size: 73632
+SHA256: b5483f5237fd5d2eeb0bf81b291d24f0222e25783c42dc911cffc18629383854
+
+Package: libcuda1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 28904
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libcuda-10.0-1, libcuda-10.1-1, libcuda-10.2-1, libcuda-11.0-1, libcuda-11.1-1, libcuda-11.2-1, libcuda-11.3-1, libcuda-11.4-1, libcuda-11.5-1, libcuda-11.6-1, libcuda-11.7-1, libcuda-11.8-1, libcuda-12.0-1, libcuda-12.1-1, libcuda-12.2-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libcuda.so.1 (= 535.216.03), libcuda1-any
+Depends: nvidia-support, nvidia-alternative (= 535.216.03-2~bpo12+1), libnvidia-ptxjitcompiler1 (= 535.216.03-2~bpo12+1), libnvidia-pkcs11-openssl3 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Pre-Depends: nvidia-legacy-check (>= 495)
+Recommends: nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03, nvidia-smi, libnvidia-cfg1 (= 535.216.03-2~bpo12+1), nvidia-persistenced (>= 535), libcuda1:i386 (= 535.216.03-2~bpo12+1)
+Suggests: nvidia-cuda-mps, nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)
+Description: NVIDIA CUDA Driver Library
+Multi-Arch: same
+Homepage: https://www.nvidia.com/CUDA
+Description-md5: c22ecaee26cadf8192f26e835fa7b52b
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libcuda1_535.216.03-2~bpo12+1_amd64.deb
+Size: 3003644
+SHA256: 0bb60a4a1b61d59fe6f0e1ba538ed7fb3b676beb04f847c378f4323114d4a1c9
+
+Package: libcudadebugger1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 10139
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libcuda1 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Description: NVIDIA CUDA Debugger Library
+Multi-Arch: same
+Homepage: https://www.nvidia.com/CUDA
+Description-md5: 44feb6cf480721ac8292ebfe3c6399e8
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libcudadebugger1_535.216.03-2~bpo12+1_amd64.deb
+Size: 2648080
+SHA256: 48443f5e686806b222dd859e2fac634db72e7abd877a662bb44b69385a9e2197
+
+Package: libegl-nvidia0
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 1516
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libnvidia-egl-wayland1, libc6 (>= 2.9), libegl1, libnvidia-eglcore (= 535.216.03-2~bpo12+1)
+Description: NVIDIA binary EGL library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 2606f210b69a7afade1df300e773e837
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libegl-nvidia0_535.216.03-2~bpo12+1_amd64.deb
+Size: 423276
+SHA256: d696739a220baa1f9e8f2613fd671e9d3a603d9dd0bd6f2571cf0ac5e5e981c9
+
+Package: libgl1-nvidia-glvnd-glx
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 354
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libgl1-nvidia-glx-any
+Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia0 (= 535.216.03-2~bpo12+1)
+Description: NVIDIA binary OpenGL/GLX library (GLVND variant)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: f5610f89ce121e1802305d9a3d330565
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glvnd-glx_535.216.03-2~bpo12+1_amd64.deb
+Size: 334236
+SHA256: 1ebf181571f49959a90d000832643b28ecce0f42f8ebb8c4a492e878284ec06a
+
+Package: libgles-nvidia1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 256
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-eglcore (= 535.216.03-2~bpo12+1), libc6 (>= 2.2.5)
+Description: NVIDIA binary OpenGL|ES 1.x library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 555def88414f46d44a7552c4b950ed5e
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgles-nvidia1_535.216.03-2~bpo12+1_amd64.deb
+Size: 172452
+SHA256: 6c6a2acc1038c7877bef467af78c5b58a530c9029107a81dfb92510c59ad4eb2
+
+Package: libgles-nvidia2
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 311
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-eglcore (= 535.216.03-2~bpo12+1), libc6 (>= 2.2.5)
+Description: NVIDIA binary OpenGL|ES 2.x library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 2ab41620403f7c2fb60970103d41e55b
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgles-nvidia2_535.216.03-2~bpo12+1_amd64.deb
+Size: 181868
+SHA256: 33a02fcbd76f78687be5286c5d07cc046ff06fe9c5239963b0f87b5f906cf109
+
+Package: libglx-nvidia0
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 1442
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libglx-vendor
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.34), libnvidia-eglcore (= 535.216.03-2~bpo12+1), libnvidia-glcore (= 535.216.03-2~bpo12+1), libx11-6, libxext6
+Description: NVIDIA binary GLX library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: ce379c987bbb78e30edc487761a62221
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libglx-nvidia0_535.216.03-2~bpo12+1_amd64.deb
+Size: 389940
+SHA256: 44f37d2c0d62923d0311a7357878cfc472d84e78a61d12621dfee51df1cd0f50
+
+Package: libnvcuvid1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 9664
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libcuda1 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA CUDA Video Decoder runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: d9966c2df4b73cef90a50ffc930d1c5c
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvcuvid1_535.216.03-2~bpo12+1_amd64.deb
+Size: 1503512
+SHA256: a34d503c11a3a401758ebcb899aa653cfb03451b7349e056e0cb01f6ad31ee16
+
+Package: libnvidia-allocator1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 344
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Recommends: libnvidia-egl-gbm1
+Description: NVIDIA allocator runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 5a94407620f78beb0f9248ca407175b1
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-allocator1_535.216.03-2~bpo12+1_amd64.deb
+Size: 208948
+SHA256: 1c9321a577f8eefec752a0d0abf9dc32b84c7b2added9eab33101ed3895f6a0f
+
+Package: libnvidia-api1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 800
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Description: NVAPI runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 6c66129682b9f85d427ebfa796b6d07a
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-api1_535.216.03-2~bpo12+1_amd64.deb
+Size: 355584
+SHA256: c1ba00e69c57385d147cf511a64305e23fc5cbd10ca5796a802fda8d2565dd72
+
+Package: libnvidia-cfg1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 451
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-cfg.so.1 (= 535.216.03), libnvidia-cfg1-any
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA binary OpenGL/GLX configuration library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 93cb80745e3603798eba35ffc06cbd9f
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-cfg1_535.216.03-2~bpo12+1_amd64.deb
+Size: 242328
+SHA256: 3d93a07f8d2b1290823743ab29e7a8ff35042149c036f1597a7c1a5a0cc1d6f2
+
+Package: libnvidia-eglcore
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 43792
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-eglcore-535.216.03
+Depends: libnvidia-glvkspirv (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Conflicts: libnvidia-eglcore-535.216.03
+Description: NVIDIA binary EGL core libraries
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 77f4911a3ecf14f3670337606e22e0a3
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-eglcore_535.216.03-2~bpo12+1_amd64.deb
+Size: 10565180
+SHA256: 9dd04e7cee76c1f64152bfb9247d2bb38090c2cf96bbd63b130028df3e249944
+
+Package: libnvidia-encode1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 430
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.3), libnvcuvid1 (>= 260)
+Description: NVENC Video Encoding runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-encode1_535.216.03-2~bpo12+1_amd64.deb
+Size: 232388
+SHA256: 5ea2ae32807910d059e19ae5b41caa9b178d61645efe8e2998d7fe4b4bdd089c
+
+Package: libnvidia-fbc1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 318
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libcuda1 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34), libgl1, libx11-6, libxext6
+Description: NVIDIA OpenGL-based Framebuffer Capture runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-fbc1_535.216.03-2~bpo12+1_amd64.deb
+Size: 193620
+SHA256: 8e66d6bc661dc40a98349066b6665e8634c6bfd9830ef585c805361e699a1d9c
+
+Package: libnvidia-glcore
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 45085
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-glcore-535.216.03
+Depends: libnvidia-glvkspirv (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Conflicts: libnvidia-glcore-535.216.03
+Description: NVIDIA binary OpenGL/GLX core libraries
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 68cd652814642e8dfbd57042c30021b6
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-glcore_535.216.03-2~bpo12+1_amd64.deb
+Size: 10822572
+SHA256: 4d89c334500d836a87646bd0b950f5a5bbd1fd7a08f1d41e06a8c32d71106e3a
+
+Package: libnvidia-glvkspirv
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 40011
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-glvkspirv-535.216.03
+Depends: libc6 (>= 2.34)
+Conflicts: libnvidia-glvkspirv-535.216.03
+Description: NVIDIA binary Vulkan Spir-V compiler library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 66e20b087609564268b47e903baff1b5
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-glvkspirv_535.216.03-2~bpo12+1_amd64.deb
+Size: 10728284
+SHA256: c79d5a69142b2db17a8c363a04c595206559e057fadc8539b8260363f6fbb334
+
+Package: libnvidia-ml1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 2098
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-ml.so.1 (= 535.216.03)
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA Management Library (NVML) runtime library
+Multi-Arch: same
+Homepage: https://developer.nvidia.com/nvidia-management-library-NVML
+Description-md5: eab021537b152fcedb35b51d1a3ddb34
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-ml1_535.216.03-2~bpo12+1_amd64.deb
+Size: 686620
+SHA256: 34e1c44df22dded725ebad3b8e202edde1ed6435d35bf32a863e8131c1e8001a
+
+Package: libnvidia-ngx1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 7158
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA NGX runtime library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: cbc0e7c1dd410a92386733206fc0fa3f
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-ngx1_535.216.03-2~bpo12+1_amd64.deb
+Size: 2419660
+SHA256: 66e9df70d3d5c5123b11bbe1feffec21b4b82e328cae131bf00f9332856d4fcd
+
+Package: libnvidia-nvvm4
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 84308
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA NVVM Compiler library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 707487927d91b1fd88e07fa712789ee8
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-nvvm4_535.216.03-2~bpo12+1_amd64.deb
+Size: 21699392
+SHA256: 0d8b74edf5c3b744064c0aa3b5981932f71e6a0e2cfec66525e3973d5e5bad04
+
+Package: libnvidia-opticalflow1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 254
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libnvcuvid1 (>= 260)
+Description: NVIDIA Optical Flow runtime library
+Multi-Arch: same
+Homepage: https://developer.nvidia.com/opticalflow-sdk
+Description-md5: b6321ff988bec29959f6c49e060abf1d
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-opticalflow1_535.216.03-2~bpo12+1_amd64.deb
+Size: 173816
+SHA256: a5343ed7f1049c03b7e3faa3d9a22d5e06ee30803c8bd270b4b86642168fca1f
+
+Package: libnvidia-pkcs11-openssl3
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 193
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-pkcs11-openssl3-535.216.03
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.2.5), libssl3 (>= 3.0.0)
+Conflicts: libnvidia-pkcs11-openssl3-535.216.03
+Description: NVIDIA PKCS #11 Library (OpenSSL 3)
+Multi-Arch: same
+Homepage: https://www.nvidia.com/CUDA
+Description-md5: 4d17d1e64ba8b70616c9930ae31cac87
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-pkcs11-openssl3_535.216.03-2~bpo12+1_amd64.deb
+Size: 156532
+SHA256: f37cb83be70ad9750d806afa9991af68d83524b9c2c5e701e059792d169a907a
+
+Package: libnvidia-ptxjitcompiler1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 22996
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA PTX JIT Compiler library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 93cc113f54f51767c65e3416fc05b76f
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-ptxjitcompiler1_535.216.03-2~bpo12+1_amd64.deb
+Size: 6980752
+SHA256: dca7acea958f31fb737b667e2243424b42ece6b7ed564daca2435aed2b607771
+
+Package: libnvidia-rtcore
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 116348
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-rtcore-535.216.03
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Conflicts: libnvidia-rtcore-535.216.03
+Description: NVIDIA binary Vulkan ray tracing (rtcore) library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: cfcfd031f6c6978d63aacfbaa60e8f09
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-rtcore_535.216.03-2~bpo12+1_amd64.deb
+Size: 17533992
+SHA256: c638b87d009bd82338ca6ef9f19bc47f81f8aae09c4c07d15c0df51afd17eaa4
+
+Package: libnvoptix1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 188879
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libcuda1 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA implementation of the OptiX ray tracing engine
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: c49d57f8e36ee7ea703ea9eb0e1ed3a3
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvoptix1_535.216.03-2~bpo12+1_amd64.deb
+Size: 131236544
+SHA256: 9a85101e7a48b07e20e9b350494b2166f6e650dab8002214f93af82dc3285b0a
+
+Package: nvidia-alternative
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 204
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-alternative--kmod-alias, nvidia-alternative-535.216.03, nvidia-alternative-any
+Depends: glx-alternative-nvidia (>= 1.2)
+Pre-Depends: dpkg (>= 1.17.21), nvidia-legacy-check (>= 495)
+Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia, nvidia-legacy-304xx-alternative, nvidia-legacy-340xx-alternative, nvidia-legacy-390xx-alternative (<< 390.157-2~), nvidia-tesla-418-alternative (<< 418.226.00-7~), nvidia-tesla-450-alternative, nvidia-tesla-460-alternative, nvidia-tesla-510-alternative
+Description: allows the selection of NVIDIA as GLX provider
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 43dd859f350d9c1c1f144ab08a1977f6
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-alternative_535.216.03-2~bpo12+1_amd64.deb
+Size: 154812
+SHA256: f398aff9d6de8af3eb566e6056563cb83ae8e6cfaa2c31c4cbcaab692d9d3116
+
+Package: nvidia-cuda-mps
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 263
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA CUDA Multi Process Service (MPS)
+Homepage: https://www.nvidia.com
+Description-md5: c5434f0c594dc7047cdf712a673ccf7c
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-cuda-mps_535.216.03-2~bpo12+1_amd64.deb
+Size: 179240
+SHA256: cda5c5caafe22a4422c094c047ccd6eecb52280f5488a972ef344ffce1761fdc
+
+Package: nvidia-detect
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 239
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: pciutils
+Description: NVIDIA GPU detection utility
+Homepage: https://www.nvidia.com
+Description-md5: 7a53c4efcf889ff150fb08a77ebb6c46
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-detect_535.216.03-2~bpo12+1_amd64.deb
+Size: 156852
+SHA256: 3bb53407b877ed6f845db374ab4e3f01140d26c1dad343f890d3ea607c9b8c9e
+
+Package: nvidia-driver
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 1424
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-any, nvidia-glx-any
+Depends: nvidia-driver-libs (= 535.216.03-2~bpo12+1), nvidia-driver-bin (= 535.216.03-2~bpo12+1), xserver-xorg-video-nvidia (= 535.216.03-2~bpo12+1), nvidia-vdpau-driver (= 535.216.03-2~bpo12+1), nvidia-alternative (= 535.216.03-2~bpo12+1), nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03, nvidia-support
+Pre-Depends: nvidia-installer-cleanup, nvidia-legacy-check (>= 495)
+Recommends: nvidia-settings (>= 535), libnvidia-cfg1 (= 535.216.03-2~bpo12+1), nvidia-persistenced (>= 535)
+Suggests: nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)
+Description: NVIDIA metapackage
+Homepage: https://www.nvidia.com
+Description-md5: 7a4f366c0492cfb037dc3704f24cb8ca
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-driver_535.216.03-2~bpo12+1_amd64.deb
+Size: 518884
+SHA256: d47cf27c4a5dcdd02e14dbc11f91803df1a7f9c2a639f66469e03bb71fec0d65
+
+Package: nvidia-driver-bin
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 385
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-bin-535.216.03
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.2.5), libnvidia-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
+Recommends: nvidia-driver
+Conflicts: nvidia-driver-bin-535.216.03
+Description: NVIDIA driver support binaries
+Homepage: https://www.nvidia.com
+Description-md5: d0118daed7fe8c1a550944b8cecc8a53
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-driver-bin_535.216.03-2~bpo12+1_amd64.deb
+Size: 219256
+SHA256: f7cf20fcd0ede86a21669f4899444553dc4bedd48a2e9ff0506883a489bb0ea3
+
+Package: nvidia-driver-full
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 175
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-driver (= 535.216.03-2~bpo12+1), libgles-nvidia1 (= 535.216.03-2~bpo12+1), libgles-nvidia2 (= 535.216.03-2~bpo12+1), libnvidia-cfg1 (= 535.216.03-2~bpo12+1), libnvidia-encode1 (= 535.216.03-2~bpo12+1), nvidia-vulkan-icd (= 535.216.03-2~bpo12+1), libnvidia-allocator1 (= 535.216.03-2~bpo12+1), libnvidia-rtcore (= 535.216.03-2~bpo12+1), nvidia-smi (= 535.216.03-2~bpo12+1), libcudadebugger1 (= 535.216.03-2~bpo12+1), libnvidia-fbc1 (= 535.216.03-2~bpo12+1), libnvoptix1 (= 535.216.03-2~bpo12+1), libnvidia-opticalflow1 (= 535.216.03-2~bpo12+1), libnvidia-ngx1 (= 535.216.03-2~bpo12+1), libnvidia-api1 (= 535.216.03-2~bpo12+1), nvidia-opencl-icd (= 535.216.03-2~bpo12+1), nvidia-powerd, nvidia-cuda-mps, nvidia-suspend-common, nvidia-settings (>= 535), nvidia-persistenced
+Description: NVIDIA metapackage (all components)
+Homepage: https://www.nvidia.com
+Description-md5: c597f867c4ddc42ce87a45a1c4eb5e67
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-driver-full_535.216.03-2~bpo12+1_amd64.deb
+Size: 152628
+SHA256: c49fef81923ff1d6f306a05aa074f14040deb5f74b40d6a66fd9061c52afb187
+
+Package: nvidia-driver-libs
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 179
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-libs-any
+Depends: libgl1-nvidia-glvnd-glx (= 535.216.03-2~bpo12+1), nvidia-egl-icd (= 535.216.03-2~bpo12+1)
+Recommends: nvidia-driver-libs:i386 (= 535.216.03-2~bpo12+1), libopengl0 | libopengl0-glvnd-nvidia, libglx-nvidia0 (= 535.216.03-2~bpo12+1), libgles-nvidia1 (= 535.216.03-2~bpo12+1), libgles-nvidia2 (= 535.216.03-2~bpo12+1), libnvidia-cfg1 (= 535.216.03-2~bpo12+1), libnvidia-encode1 (= 535.216.03-2~bpo12+1), nvidia-vulkan-icd (= 535.216.03-2~bpo12+1), libnvidia-allocator1 (= 535.216.03-2~bpo12+1)
+Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
+Breaks: libegl1-nvidia, libgl1-nvidia-glx, nvidia-driver-libs-nonglvnd, nvidia-nonglvnd-vulkan-icd
+Description: NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 316d7881efd72c30ac3f0e1720998a13
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-driver-libs_535.216.03-2~bpo12+1_amd64.deb
+Size: 152912
+SHA256: 4c13f033407cfbe76168485df1bac223af66db389a9a08106d499965ffebd3b1
+
+Package: nvidia-egl-common
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 181
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Suggests: libegl-nvidia0 | libegl-nvidia-tesla-535-0 | libegl-nvidia-tesla-470-0
+Description: NVIDIA binary EGL driver - common files
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: fed2d098ae63a755a343fdf61c591389
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-egl-common_535.216.03-2~bpo12+1_amd64.deb
+Size: 152840
+SHA256: f716cc1765087f1f7246e6ae9fda9b4a9ba01b79d0b94f0e69d4b593dcd8bee4
+
+Package: nvidia-egl-icd
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 175
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: egl-icd, libegl-vendor
+Depends: nvidia-egl-common, libegl1 (>= 0.2.999) | libegl1-glvnd-nvidia, libegl-nvidia0 (= 535.216.03-2~bpo12+1)
+Enhances: libegl1
+Description: NVIDIA EGL installable client driver (ICD)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 48bb1c6fd6391aad335bab10bc4ab1eb
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-egl-icd_535.216.03-2~bpo12+1_amd64.deb
+Size: 152576
+SHA256: cac10f0c233f0f6480ace2bb871eb9c3537e935a38a4bc9c28f69e6776c8e613
+
+Package: nvidia-kernel-dkms
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 72859
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-kernel-535.216.03, nvidia-kernel-dkms-any (= 535.216.03)
+Depends: firmware-nvidia-gsp (= 535.216.03) | firmware-nvidia-gsp-535.216.03, nvidia-kernel-support--v1, dkms (>= 3.0.3-4~)
+Pre-Depends: nvidia-installer-cleanup
+Recommends: nvidia-driver (>= 535.216.03) | libcuda1 (>= 535.216.03)
+Description: NVIDIA binary kernel module DKMS source
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 9fa6e55f53dbbbdc6f4be7bd24228706
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-dkms_535.216.03-2~bpo12+1_amd64.deb
+Size: 44947748
+SHA256: 6f3a1cf836f44d87a96ee95ad43022db0504c71800205a6e8086c7ed692921c9
+
+Package: nvidia-kernel-source
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 43932
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: debhelper-compat (= 13), module-assistant
+Recommends: firmware-nvidia-gsp (= 535.216.03) | firmware-nvidia-gsp-535.216.03, nvidia-kernel-support--v1
+Suggests: nvidia-driver (>= 535.216.03)
+Description: NVIDIA binary kernel module source
+Homepage: https://www.nvidia.com
+Description-md5: febe87c1a24cb86ade42f7d3693bb941
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-source_535.216.03-2~bpo12+1_amd64.deb
+Size: 44959532
+SHA256: 9b978af54121ef722bf8833937061b2eee8dd71ef4bc78960d469b4126515564
+
+Package: nvidia-kernel-support
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 190
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-kernel-support--v1, nvidia-kernel-support-any
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), nvidia-alternative--kmod-alias, nvidia-kernel-common (>= 20151021), nvidia-modprobe (>= 535)
+Description: NVIDIA binary kernel module support files
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 8792dd43882b8dd916f141a2ea5a842a
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-support_535.216.03-2~bpo12+1_amd64.deb
+Size: 153868
+SHA256: 81c11e28994f65568118971e5013aa71d0adbd11ed193ab8ede990a4fe6bcc17
+
+Package: nvidia-legacy-check
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 196
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf | debconf-2.0, pciutils, nvidia-installer-cleanup (>= 20151021)
+Description: check for NVIDIA GPUs requiring a legacy driver
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: b9b67894f32dc3ae82000edbc4af6cb2
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-legacy-check_535.216.03-2~bpo12+1_amd64.deb
+Size: 158336
+SHA256: a41ff70008ec67cbb091423045fde027c2a174ecaa432e6461daf9b978b72b3f
+
+Package: nvidia-libopencl1
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 224
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: libopencl1
+Provides: libopencl-1.1-1, libopencl-1.2-1, libopencl-2.0-1, libopencl-2.1-1, libopencl-2.2-1, libopencl-3.0-1, libopencl1
+Depends: libc6 (>= 2.2.5)
+Recommends: nvidia-opencl-icd | opencl-icd
+Conflicts: libopencl1
+Description: NVIDIA OpenCL ICD Loader library
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: ba2b8ccc6a498c885c07dc9be6652a54
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-libopencl1_535.216.03-2~bpo12+1_amd64.deb
+Size: 163160
+SHA256: b37dec58c0ee0c614967cb7b168a5ebfd412a0068752506beb8700ce3a6c89b8
+
+Package: nvidia-opencl-common
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 183
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Suggests: nvidia-opencl-icd | nvidia-tesla-535-opencl-icd | nvidia-tesla-470-opencl-icd
+Description: NVIDIA OpenCL driver - common files
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 72502d83403cf0ff0374f5b07acbf529
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-common_535.216.03-2~bpo12+1_amd64.deb
+Size: 152820
+SHA256: 93f185b57be63d7c199080e2fc050f84a9f42c5b501d78414abdfb1d7bed4260
+
+Package: nvidia-opencl-icd
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 23907
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: opencl-icd
+Depends: nvidia-opencl-common, ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1, nvidia-alternative (= 535.216.03-2~bpo12+1), libcuda1 (= 535.216.03-2~bpo12+1), libnvidia-nvvm4 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Enhances: libopencl1
+Description: NVIDIA OpenCL installable client driver (ICD)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: e9a86cdb279a70cd57728488a19355ac
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd_535.216.03-2~bpo12+1_amd64.deb
+Size: 2790028
+SHA256: 82c4e8340e75bc96afa4c1ff3b76de1544596bfd8044cedf1b21898fc925719a
+
+Package: nvidia-powerd
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 779
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Description: NVIDIA Dynamic Boost (daemon)
+Homepage: https://www.nvidia.com
+Description-md5: f9839a172225b4979811cf62d6abfbe2
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-powerd_535.216.03-2~bpo12+1_amd64.deb
+Size: 325740
+SHA256: 3e846568af523e5c82018ba31d039f644f0e3afaaf1ed87773eb6cd2e672798e
+
+Package: nvidia-smi
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 878
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), libnvidia-ml1 (= 535.216.03-2~bpo12+1), libc6 (>= 2.34)
+Recommends: nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03
+Suggests: nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)
+Description: NVIDIA System Management Interface
+Homepage: https://www.nvidia.com
+Description-md5: b173d400cbd92c511f6abb1c18284f04
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-smi_535.216.03-2~bpo12+1_amd64.deb
+Size: 388028
+SHA256: e19d9bcbc4336adeb3c90589033810676ae9ce00309322c04560d533cf09b295
+
+Package: nvidia-suspend-common
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 193
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: kbd
+Description: NVIDIA driver - systemd power management scripts
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 138e88a2e20bec31b8489fd3916ed1f6
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-suspend-common_535.216.03-2~bpo12+1_amd64.deb
+Size: 153780
+SHA256: 781d05e42890552d6120e7df59eef132cede51608e06831e3fb99dfd60d3cb1e
+
+Package: nvidia-vdpau-driver
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 988
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: vdpau-driver
+Depends: libvdpau1 (>= 0.9), nvidia-alternative (= 535.216.03-2~bpo12+1), libc6 (>= 2.34), libx11-6, libxext6
+Pre-Depends: nvidia-installer-cleanup, nvidia-legacy-check (>= 495)
+Recommends: nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03
+Suggests: nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)
+Enhances: libvdpau1
+Description: Video Decode and Presentation API for Unix - NVIDIA driver
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: c40d6be7136e6e887cae28af621673a5
+Section: non-free/video
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver_535.216.03-2~bpo12+1_amd64.deb
+Size: 642384
+SHA256: 91b79ca210f07baf03cdb51397af62d34e4f6d88c8394742e50321f4a65f51c3
+
+Package: nvidia-vulkan-common
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 183
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Suggests: nvidia-vulkan-icd | nvidia-tesla-535-vulkan-icd | nvidia-tesla-470-vulkan-icd
+Conflicts: libgl1-nvidia-glx, libgl1-nvidia-legacy-390xx-glx, libgl1-nvidia-tesla-418-glx, nvidia-nonglvnd-vulkan-common
+Description: NVIDIA Vulkan driver - common files
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 89971dfca7826f5f08811a7f718f7529
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vulkan-common_535.216.03-2~bpo12+1_amd64.deb
+Size: 153104
+SHA256: 35354189cfb47357005eb58e7601e051ebfc746ccba2b4844811ed11216bd722
+
+Package: nvidia-vulkan-icd
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 175
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-vulkan-icd-any, vulkan-icd
+Depends: nvidia-vulkan-common, libvulkan1 (>= 1.0.42), libglx-nvidia0 (= 535.216.03-2~bpo12+1), libnvidia-rtcore (= 535.216.03-2~bpo12+1)
+Suggests: vulkan-tools
+Enhances: libvulkan1
+Conflicts: nvidia-nonglvnd-vulkan-icd
+Description: NVIDIA Vulkan installable client driver (ICD)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: d104ec0a3dbcaf5f512b3217367c796e
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vulkan-icd_535.216.03-2~bpo12+1_amd64.deb
+Size: 152568
+SHA256: d99c403324eef3f15ffb4f444d22e6d09930708261a6b1cd2447c024a7ab0000
+
+Package: xserver-xorg-video-nvidia
+Source: nvidia-graphics-drivers
+Version: 535.216.03-2~bpo12+1
+Installed-Size: 18921
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: xorg-driver-video, xserver-xorg-video-nvidia-any
+Depends: nvidia-alternative (= 535.216.03-2~bpo12+1), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.34), libnvidia-glcore (= 535.216.03-2~bpo12+1)
+Pre-Depends: nvidia-installer-cleanup, nvidia-legacy-check (>= 495)
+Recommends: nvidia-driver (>= 535.216.03), nvidia-vdpau-driver (>= 535.216.03), nvidia-vulkan-icd (>= 535.216.03), nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03, nvidia-suspend-common, nvidia-settings (>= 535)
+Suggests: nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)
+Description: NVIDIA binary Xorg driver
+Homepage: https://www.nvidia.com
+Description-md5: a9e538a391a774fd2e77b931f35d8313
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_535.216.03-2~bpo12+1_amd64.deb
+Size: 2294648
+SHA256: 7c907b1c0ebb0767ae0f7a06a8b7abe9e18d3452086d28bd1ea0c6c7c70ea1ef
+
+Package: libegl-nvidia-tesla-470-0
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 1465
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libc6 (>= 2.4), libegl1, libnvidia-egl-wayland1 (>= 1:1.1.7), libnvidia-tesla-470-eglcore (= 470.256.02-5~bpo12+1)
+Description: NVIDIA binary EGL library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 52c38794ee1484bdff51276c594734d6
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libegl-nvidia-tesla-470-0_470.256.02-5~bpo12+1_amd64.deb
+Size: 393676
+SHA256: f50aa720c78ac9beee3864eb06b9f4fdedc67c359204e8ec14af5d7ff86638f0
+
+Package: libgl1-nvidia-tesla-470-glvnd-glx
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 317
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libgl1-nvidia-glx-any
+Depends: libgl1 (>= 0.2.999) | libgl1-glvnd-nvidia-glx, libglx-nvidia-tesla-470-0 (= 470.256.02-5~bpo12+1)
+Description: NVIDIA binary OpenGL/GLX library (GLVND variant) (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: d167913ca39c15aecdf5d7ec22a895bb
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libgl1-nvidia-tesla-470-glvnd-glx_470.256.02-5~bpo12+1_amd64.deb
+Size: 304112
+SHA256: 88f3691b6527170a4aefe2e4e695a49a8a7c18c87394beb3d08d24dea86afdb6
+
+Package: libgles-nvidia-tesla-470-1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 229
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libgles1 (>= 0.2.999) | libgles1-glvnd-nvidia, libnvidia-tesla-470-eglcore (= 470.256.02-5~bpo12+1), libc6 (>= 2.2.5)
+Description: NVIDIA binary OpenGL|ES 1.x library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 2363bcc4095919bb3d7d59c4b356ed8d
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libgles-nvidia-tesla-470-1_470.256.02-5~bpo12+1_amd64.deb
+Size: 151528
+SHA256: 9370b33a872cff8186f331fe726eb296a849d1b09bd04ed046b30c087d4f1072
+
+Package: libgles-nvidia-tesla-470-2
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 284
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libgles2 (>= 0.2.999) | libgles2-glvnd-nvidia, libnvidia-tesla-470-eglcore (= 470.256.02-5~bpo12+1), libc6 (>= 2.2.5)
+Description: NVIDIA binary OpenGL|ES 2.x library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 7912750b01f237feaa4560a7c00837e6
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libgles-nvidia-tesla-470-2_470.256.02-5~bpo12+1_amd64.deb
+Size: 160096
+SHA256: db216cb5ac7f238892e9242778dbbe89081593c11e7c7ef836f690554f2763eb
+
+Package: libglx-nvidia-tesla-470-0
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 1507
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libglx-vendor
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libglx0 | libglx0-glvnd-nvidia, libc6 (>= 2.34), libnvidia-tesla-470-eglcore (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-glcore (= 470.256.02-5~bpo12+1), libx11-6, libxext6
+Description: NVIDIA binary GLX library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 1fc772f235271071013ee9d67a2129da
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libglx-nvidia-tesla-470-0_470.256.02-5~bpo12+1_amd64.deb
+Size: 370088
+SHA256: df0060bcb953692b7071c7c193da875b62ad8f7913359b2793c0ee4cba52f87e
+
+Package: libnvidia-tesla-470-allocator1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 256
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA allocator runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 40c9c8dfa6bc8c35a0a7b2889a7acf87
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-allocator1_470.256.02-5~bpo12+1_amd64.deb
+Size: 169856
+SHA256: 4a6021b0213119ea77b552826df4c69f1ca16bf196cc606ea152ced44bad810f
+
+Package: libnvidia-tesla-470-cbl
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 909
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-cbl-470.256.02
+Depends: libc6 (>= 2.34)
+Conflicts: libnvidia-cbl-470.256.02
+Description: NVIDIA binary Vulkan ray tracing (cbl) library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: ceb533726737bd9e127b5cf336c8b9f9
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-cbl_470.256.02-5~bpo12+1_amd64.deb
+Size: 388984
+SHA256: 05a74bd7ad57874b2f063e01c5d1463aabd4740544ef4acc46ce291e7639c0b1
+
+Package: libnvidia-tesla-470-cfg1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 376
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-cfg.so.1 (= 470.256.02), libnvidia-cfg1-any
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA binary OpenGL/GLX configuration library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 6001b9d987d0264c02b94519574470b0
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-cfg1_470.256.02-5~bpo12+1_amd64.deb
+Size: 205016
+SHA256: 3864fafbb19e725991eeca4f8255775da1a35b279fc06b126ba3ff88690541a7
+
+Package: libnvidia-tesla-470-compiler
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 54817
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-compiler-470.256.02
+Depends: libc6 (>= 2.34)
+Conflicts: libnvidia-compiler-470.256.02
+Description: NVIDIA runtime compiler library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 6bcc6309b892a135654ebadab8e142ca
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-compiler_470.256.02-5~bpo12+1_amd64.deb
+Size: 13745816
+SHA256: ce5bd38f3a32e89a510ef66f6d485516864716a4c1c36e3c98db3a5175c25ab1
+
+Package: libnvidia-tesla-470-cuda1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 21708
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libcuda-10.0-1, libcuda-10.1-1, libcuda-10.2-1, libcuda-11.0-1, libcuda-11.1-1, libcuda-11.2-1, libcuda-11.3-1, libcuda-11.4-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libcuda.so.1 (= 470.256.02), libcuda1-any
+Depends: nvidia-support, nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-ptxjitcompiler1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Recommends: nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02, nvidia-tesla-470-smi, libnvidia-tesla-470-cfg1 (= 470.256.02-5~bpo12+1), nvidia-persistenced, libnvidia-tesla-470-cuda1:i386 (= 470.256.02-5~bpo12+1)
+Suggests: nvidia-cuda-mps, nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)
+Description: NVIDIA CUDA Driver Library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com/CUDA
+Description-md5: a653506a1e695cffa72a7ff26b9e3263
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-cuda1_470.256.02-5~bpo12+1_amd64.deb
+Size: 2637952
+SHA256: 5abec4cc88d5e7d15655812a1181b04aa951e7d56a68d567dbcd0e4882b06195
+
+Package: libnvidia-tesla-470-eglcore
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 30437
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-eglcore-470.256.02
+Depends: libnvidia-tesla-470-glvkspirv (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Conflicts: libnvidia-eglcore-470.256.02
+Description: NVIDIA binary EGL core libraries (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 9ce14eda75493dcc4b1af988df460106
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-eglcore_470.256.02-5~bpo12+1_amd64.deb
+Size: 8265404
+SHA256: 8974889498cda16f6fefafeddc6674d89309edb0663f08711eab80d48173c718
+
+Package: libnvidia-tesla-470-encode1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 275
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libnvidia-tesla-470-nvcuvid1 (>= 260)
+Description: NVENC Video Encoding runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 59b02491ee88dd221b14fba5f8018cb5
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-encode1_470.256.02-5~bpo12+1_amd64.deb
+Size: 168096
+SHA256: db2e52017cb1222c4fa7a5a0c5c3476aeaa5fdda7047c17c665bf8f1c6981794
+
+Package: libnvidia-tesla-470-fbc1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 287
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.34), libgl1, libx11-6, libxext6
+Description: NVIDIA OpenGL-based Framebuffer Capture runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: f3f09330e12344b791263d3a942c2772
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-fbc1_470.256.02-5~bpo12+1_amd64.deb
+Size: 172872
+SHA256: 58a3d5e93ba34b6b9d28236721331deb872f311218df42feb90596c6f0fd24b9
+
+Package: libnvidia-tesla-470-glcore
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 31528
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-glcore-470.256.02
+Depends: libnvidia-tesla-470-glvkspirv (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Conflicts: libnvidia-glcore-470.256.02
+Description: NVIDIA binary OpenGL/GLX core libraries (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 2d48525de4ab549b600bf5fdc9abcbb9
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-glcore_470.256.02-5~bpo12+1_amd64.deb
+Size: 8372764
+SHA256: a0518c9f29fcbd28e09542c685d3c69c875db4f95873f086ef834df8c1e56488
+
+Package: libnvidia-tesla-470-glvkspirv
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 12888
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-glvkspirv-470.256.02
+Depends: libc6 (>= 2.7)
+Conflicts: libnvidia-glvkspirv-470.256.02
+Description: NVIDIA binary Vulkan Spir-V compiler library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: a58df5ca5e38ce153be0cca8afd117a5
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-glvkspirv_470.256.02-5~bpo12+1_amd64.deb
+Size: 4122516
+SHA256: d1a7f8b5caa02e57e39d0fb2c5be43df890c16f08fd99f16987fb796b592c111
+
+Package: libnvidia-tesla-470-ifr1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 375
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.3.2), libgl1, libx11-6
+Description: NVIDIA OpenGL-based Inband Frame Readback runtime library (Tesla 470)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: c71e083ab37f20e3d7afb5a8db383bdb
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-ifr1_470.256.02-5~bpo12+1_amd64.deb
+Size: 193916
+SHA256: 364f285280a2035b0ec45d118c73d1d128017b3026928fdfd061359778c61909
+
+Package: libnvidia-tesla-470-ml1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 1956
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-ml.so.1 (= 470.256.02)
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA Management Library (NVML) runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://developer.nvidia.com/nvidia-management-library-NVML
+Description-md5: da89930dc3e4d41abfc51c6bf3131467
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-ml1_470.256.02-5~bpo12+1_amd64.deb
+Size: 610220
+SHA256: ecaee141ac9f122aceff5361c98dcfb5394434aea22030b5dfbb382deaf0b70c
+
+Package: libnvidia-tesla-470-ngx1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 5248
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA NGX runtime library (Tesla 470)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 7207ae89c9339ee93fa3aa14df022022
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-ngx1_470.256.02-5~bpo12+1_amd64.deb
+Size: 1817888
+SHA256: c94aa2c396f00f5062cb0c953d31ff58929aabab72332d6307de77a3bb0da703
+
+Package: libnvidia-tesla-470-nvcuvid1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 5496
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA CUDA Video Decoder runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: d09fa43276418a36bec6fcd8d5281f8d
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-nvcuvid1_470.256.02-5~bpo12+1_amd64.deb
+Size: 1174940
+SHA256: e1d3b30cbb677274ac8e8799193a68a9016c66656d92378ab04ae5466e42a60f
+
+Package: libnvidia-tesla-470-nvoptix1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 164619
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Description: NVIDIA implementation of the OptiX ray tracing engine (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 2bb020413f85aae31202735ff7b0eaac
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-nvoptix1_470.256.02-5~bpo12+1_amd64.deb
+Size: 106813248
+SHA256: 629746491c524238f9a4ea053749536e8494158225e947c851b089c6bb82a0fe
+
+Package: libnvidia-tesla-470-nvvm4
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 26194
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: NVIDIA NVVM Compiler library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 432c5a9fc3639a5b794b76c45ca1726b
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-nvvm4_470.256.02-5~bpo12+1_amd64.deb
+Size: 8124372
+SHA256: 7f2ebb23afc16f9c16beb69a501622a8d1263cb93218f52f422b3b2532b3bdb2
+
+Package: libnvidia-tesla-470-opticalflow1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 206
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libnvidia-tesla-470-nvcuvid1 (>= 260)
+Description: NVIDIA Optical Flow runtime library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://developer.nvidia.com/opticalflow-sdk
+Description-md5: 2f10dd31401cfc18e9f03e03638bf334
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-opticalflow1_470.256.02-5~bpo12+1_amd64.deb
+Size: 146184
+SHA256: dacd9af1a5acdbd8b264e87a6ca5f2aa3596c1fc875cc8d452db19b6ccbaf8a4
+
+Package: libnvidia-tesla-470-ptxjitcompiler1
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 11059
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Description: NVIDIA PTX JIT Compiler library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 69e3bd363a07d6cfcf29d8e905ce8dcb
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-ptxjitcompiler1_470.256.02-5~bpo12+1_amd64.deb
+Size: 4980900
+SHA256: 38e7bc78e816a7b4926cc1d8c32dc2f317ea38ecf7e7b465342ba9ad3ebb1734
+
+Package: libnvidia-tesla-470-rtcore
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 80890
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: libnvidia-rtcore-470.256.02
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 4.2)
+Conflicts: libnvidia-rtcore-470.256.02
+Description: NVIDIA binary Vulkan ray tracing (rtcore) library (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 4be144255cd57f062d5b36c985c4e417
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-rtcore_470.256.02-5~bpo12+1_amd64.deb
+Size: 13550452
+SHA256: 566bcfa093a8a2754bfbb086657aae021656877a004b79d3ff1dc2cee2711138
+
+Package: nvidia-tesla-470-alternative
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 174
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-alternative-any, nvidia-tesla-470-alternative--kmod-alias
+Depends: glx-alternative-nvidia (>= 1.2)
+Pre-Depends: dpkg (>= 1.17.21)
+Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
+Description: allows the selection of NVIDIA as GLX provider (Tesla 470 version)
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 21d78ef612cafffe1e396c605b3a57af
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-alternative_470.256.02-5~bpo12+1_amd64.deb
+Size: 133740
+SHA256: 855b962f7e8c2764d81dfcad694245dc1c497e50b578ce2b6dc53fa6c9dfd693
+
+Package: nvidia-tesla-470-driver
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 1295
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-any, nvidia-glx-any
+Depends: nvidia-tesla-470-driver-libs (= 470.256.02-5~bpo12+1), nvidia-tesla-470-driver-bin (= 470.256.02-5~bpo12+1), xserver-xorg-video-nvidia-tesla-470 (= 470.256.02-5~bpo12+1), nvidia-tesla-470-vdpau-driver (= 470.256.02-5~bpo12+1), nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02, nvidia-support
+Pre-Depends: nvidia-installer-cleanup
+Recommends: nvidia-settings-tesla-470 (>= 470), libnvidia-tesla-470-cfg1 (= 470.256.02-5~bpo12+1), nvidia-persistenced
+Suggests: nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)
+Description: NVIDIA metapackage (Tesla 470 version)
+Homepage: https://www.nvidia.com
+Description-md5: 0bbd2a51098081db3de69c4edc4411b3
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-driver_470.256.02-5~bpo12+1_amd64.deb
+Size: 477584
+SHA256: 43233d3fb4fea5f21e16d4f9e2b672e2b416121126a6db5b815db5e5ce0b521f
+
+Package: nvidia-tesla-470-driver-bin
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 455
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-bin-470.256.02
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libc6 (>= 2.2.5), libnvidia-tesla-470-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)
+Recommends: nvidia-tesla-470-driver
+Conflicts: nvidia-driver-bin-470.256.02
+Description: NVIDIA driver support binaries (Tesla 470 version)
+Homepage: https://www.nvidia.com
+Description-md5: c740690eca57c0061bc17f8f28d73671
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-driver-bin_470.256.02-5~bpo12+1_amd64.deb
+Size: 222500
+SHA256: 4203e1659b329eaf7c0f9e8de33d4f0ed0d25c45c36c2f1c97ede4ba04deed98
+
+Package: nvidia-tesla-470-driver-libs
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 152
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-driver-libs-any
+Depends: libgl1-nvidia-tesla-470-glvnd-glx (= 470.256.02-5~bpo12+1), nvidia-tesla-470-egl-icd (= 470.256.02-5~bpo12+1)
+Recommends: nvidia-tesla-470-driver-libs:i386 (= 470.256.02-5~bpo12+1), libopengl0 | libopengl0-glvnd-nvidia, libglx-nvidia-tesla-470-0 (= 470.256.02-5~bpo12+1), libgles-nvidia-tesla-470-1 (= 470.256.02-5~bpo12+1), libgles-nvidia-tesla-470-2 (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-cfg1 (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-encode1 (= 470.256.02-5~bpo12+1), nvidia-tesla-470-vulkan-icd (= 470.256.02-5~bpo12+1)
+Conflicts: libegl1-glvnd-nvidia, libgl1-glvnd-nvidia-glx, libgl1-nvidia-tesla-470-glx-i386, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libglvnd0-nvidia, libglx0-glvnd-nvidia, libopengl0-glvnd-nvidia
+Breaks: libegl1-nvidia-tesla-470, libgl1-nvidia-tesla-470-glx, nvidia-tesla-470-driver-libs-nonglvnd, nvidia-tesla-470-nonglvnd-vulkan-icd
+Description: NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: fd12997a1d112b44e78d93d467644a0c
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-driver-libs_470.256.02-5~bpo12+1_amd64.deb
+Size: 132172
+SHA256: 5e34e3a60dc86085b1a6bae6ff41106114a85be10d950c5180efb286847f5ca3
+
+Package: nvidia-tesla-470-egl-icd
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 148
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: egl-icd, libegl-vendor
+Depends: nvidia-egl-common, libegl1 (>= 0.2.999) | libegl1-glvnd-nvidia, libegl-nvidia-tesla-470-0 (= 470.256.02-5~bpo12+1)
+Enhances: libegl1
+Description: NVIDIA EGL installable client driver (ICD)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 48bb1c6fd6391aad335bab10bc4ab1eb
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-egl-icd_470.256.02-5~bpo12+1_amd64.deb
+Size: 131824
+SHA256: 4bada64777ff6f2200fbddeb56e8430fc6f1d55d75a0d81fa568f54988a0e31b
+
+Package: nvidia-tesla-470-kernel-dkms
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 49455
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-kernel-dkms-any (= 470.256.02), nvidia-tesla-470-kernel-470.256.02
+Depends: firmware-nvidia-tesla-470-gsp (= 470.256.02) | firmware-nvidia-gsp-470.256.02, nvidia-tesla-470-kernel-support--v1, dkms (>= 2.1.0.0)
+Pre-Depends: nvidia-installer-cleanup
+Recommends: nvidia-tesla-470-driver (>= 470.256.02) | libnvidia-tesla-470-cuda1 (>= 470.256.02)
+Description: NVIDIA binary kernel module DKMS source (Tesla 470 version)
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 4f82429a9df479e26afcf3fdca551722
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-kernel-dkms_470.256.02-5~bpo12+1_amd64.deb
+Size: 25620980
+SHA256: 1fc52cc2ee6fff94c228f6f08778414b50e96813bec441e37868a3d9c0b22718
+
+Package: nvidia-tesla-470-kernel-source
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 25048
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: debhelper-compat (= 13), module-assistant, quilt
+Recommends: firmware-nvidia-tesla-470-gsp (= 470.256.02) | firmware-nvidia-gsp-470.256.02, nvidia-tesla-470-kernel-support--v1
+Suggests: nvidia-tesla-470-driver (>= 470.256.02)
+Description: NVIDIA binary kernel module source (Tesla 470 version)
+Homepage: https://www.nvidia.com
+Description-md5: 627dbd5e7dc4d7915d97070b67f25b6b
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-kernel-source_470.256.02-5~bpo12+1_amd64.deb
+Size: 25628296
+SHA256: 72a175c03bd7c42107edfcad900d9e9c605c4b1723d49516074cb33d62bab348
+
+Package: nvidia-tesla-470-kernel-support
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 36095
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firmware-nvidia-gsp-470.256.02, firmware-nvidia-tesla-470-gsp (= 470.256.02), nvidia-kernel-support-any, nvidia-tesla-470-kernel-support--v1
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), nvidia-tesla-470-alternative--kmod-alias, nvidia-kernel-common (>= 20151021), nvidia-modprobe (>= 470)
+Conflicts: firmware-nvidia-gsp-470.256.02
+Description: NVIDIA binary kernel module support files (Tesla 470 version)
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 6e7bfe61c71e67983d52361ca9600416
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-kernel-support_470.256.02-5~bpo12+1_amd64.deb
+Size: 16798220
+SHA256: b9dcf906f1b1cbe9ab19756c074078699e50f237865e3111bab39fa11b9ed62d
+
+Package: nvidia-tesla-470-opencl-icd
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 17561
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: opencl-icd
+Depends: nvidia-opencl-common, ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1, nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-compiler (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Enhances: libopencl1
+Description: NVIDIA OpenCL installable client driver (ICD) (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 67cd14f90708a3b6eb44806bb5529caf
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-opencl-icd_470.256.02-5~bpo12+1_amd64.deb
+Size: 2470912
+SHA256: 30a8f7a7b6eb8ee9758c7e568dab6629af74aef34a788b28a698b5d8b0e10081
+
+Package: nvidia-tesla-470-smi
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 840
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-ml1 (= 470.256.02-5~bpo12+1), libc6 (>= 2.34)
+Recommends: nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02
+Suggests: nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)
+Description: NVIDIA System Management Interface (Tesla 470 version)
+Homepage: https://www.nvidia.com
+Description-md5: a51ddee5a90e466e25fadd89add6f762
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-smi_470.256.02-5~bpo12+1_amd64.deb
+Size: 357064
+SHA256: 93968837c76d45c42d60ca295156196c792478f75b3f6e1763094934256f4b81
+
+Package: nvidia-tesla-470-vdpau-driver
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 1019
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: vdpau-driver
+Depends: libvdpau1 (>= 0.9), nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), libc6 (>= 2.34), libx11-6, libxext6
+Pre-Depends: nvidia-installer-cleanup
+Recommends: nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02
+Suggests: nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)
+Enhances: libvdpau1
+Description: Video Decode and Presentation API for Unix - NVIDIA driver (Tesla 470)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: b4b88d625a556a76f040c7b9b573ac1d
+Section: non-free/video
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-vdpau-driver_470.256.02-5~bpo12+1_amd64.deb
+Size: 631704
+SHA256: cb53cd3572c3172b64108144a980af5b9a73e89351e28747bb531527a4684902
+
+Package: nvidia-tesla-470-vulkan-icd
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 148
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: nvidia-vulkan-icd-any, vulkan-icd
+Depends: nvidia-vulkan-common, libvulkan1 (>= 1.0.42), libglx-nvidia-tesla-470-0 (= 470.256.02-5~bpo12+1)
+Recommends: libnvidia-tesla-470-cbl (= 470.256.02-5~bpo12+1), libnvidia-tesla-470-rtcore (= 470.256.02-5~bpo12+1)
+Suggests: vulkan-tools
+Enhances: libvulkan1
+Conflicts: nvidia-tesla-470-nonglvnd-vulkan-icd
+Description: NVIDIA Vulkan installable client driver (ICD) (Tesla 470 version)
+Multi-Arch: same
+Homepage: https://www.nvidia.com
+Description-md5: 8932f3ac9eee7570fffc87ba6ef73025
+Section: non-free/libs
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-vulkan-icd_470.256.02-5~bpo12+1_amd64.deb
+Size: 131860
+SHA256: 22b42d11b47f5db34a62fe357270c20ddf16ebdecfa7df6f0e7d6e4119d11bc8
+
+Package: xserver-xorg-video-nvidia-tesla-470
+Source: nvidia-graphics-drivers-tesla-470
+Version: 470.256.02-5~bpo12+1
+Installed-Size: 19006
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: xorg-driver-video, xserver-xorg-video-nvidia-any
+Depends: nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1), nvidia-support, xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:21.99), libc6 (>= 2.34), libnvidia-tesla-470-glcore (= 470.256.02-5~bpo12+1)
+Pre-Depends: nvidia-installer-cleanup
+Recommends: nvidia-tesla-470-driver (>= 470.256.02), nvidia-tesla-470-vdpau-driver (>= 470.256.02), nvidia-tesla-470-vulkan-icd (>= 470.256.02), nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02, nvidia-settings-tesla-470 (>= 470)
+Suggests: nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)
+Description: NVIDIA binary Xorg driver (Tesla 470 version)
+Homepage: https://www.nvidia.com
+Description-md5: 39287396acf53fec651ef6f4e662c517
+Section: non-free/x11
+Priority: optional
+Filename: pool/non-free/n/nvidia-graphics-drivers-tesla-470/xserver-xorg-video-nvidia-tesla-470_470.256.02-5~bpo12+1_amd64.deb
+Size: 2319844
+SHA256: eeffd7d80857bb2689972e15c631a2340b24e6e011726e8a4f74455ca9f44df1
+
+Package: odr-audioenc
+Version: 3.6.0-2~bpo12+1
+Installed-Size: 1916
+Maintainer: Robin Alexander <robin.alexander@netplus.ch>
+Architecture: amd64
+Depends: gstreamer1.0-plugins-good, vlc-plugin-base, libasound2 (>= 1.0.16), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libstdc++6 (>= 12), libvlc5 (>= 2.0.0), libzmq5 (>= 3.2.3+dfsg)
+Description: DAB and DAB+ encoder that integrates into the ODR-mmbTools
+Multi-Arch: foreign
+Homepage: https://www.opendigitalradio.org/mmbtools
+Description-md5: 43f4f6a3da8b5d45734d775a019491b6
+Section: non-free/hamradio
+Priority: optional
+Filename: pool/non-free/o/odr-audioenc/odr-audioenc_3.6.0-2~bpo12+1_amd64.deb
+Size: 851372
+SHA256: 410e1ab618bf9c273e70c36d08d138200957569cded9e839e7c6db677547e9fa
+
+Package: librhvoice-audio2
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 238
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.32), libgcc-s1 (>= 3.0), libportaudio2 (>= 19+svn20101113), libpulse0 (>= 0.99.1), librhvoice-core10 (>= 1.14.0), libstdc++6 (>= 5.2)
+Description: RHVoice speech synthesizer - audio shared library
+Multi-Arch: same
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 78dc3a22d888e070848c5a563dd9c72f
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/librhvoice-audio2_1.14.0-2~bpo12+1_amd64.deb
+Size: 40588
+SHA256: 526ea45f028853e4f1589c61481370e30c376610a9f961e243052a34c8efcb3a
+
+Package: librhvoice-core10
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 2256
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: librhvoice-core4, librhvoice-core7
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libsonic0 (>= 0.1.10), libstdc++6 (>= 11), rhvoice-english | rhvoice-voice
+Conflicts: librhvoice-core4, librhvoice-core7
+Description: RHVoice speech synthesizer - core shared library
+Multi-Arch: same
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: dd712c3dda55d1d68c5518276bfc6017
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/librhvoice-core10_1.14.0-2~bpo12+1_amd64.deb
+Size: 472984
+SHA256: 75cddc24428c087dfccb7f77320b5fa80ff53d39a33ab9aee7c4057098e7d525
+
+Package: librhvoice-dev
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 176
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Depends: librhvoice5 (= 1.14.0-2~bpo12+1), librhvoice-core10 (= 1.14.0-2~bpo12+1), librhvoice-audio2 (= 1.14.0-2~bpo12+1)
+Description: RHVoice speech synthesizer - development files
+Multi-Arch: same
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 76d443f3045f80ba5f0fa6301f49264f
+Section: non-free/libdevel
+Priority: optional
+Filename: pool/non-free/r/rhvoice/librhvoice-dev_1.14.0-2~bpo12+1_amd64.deb
+Size: 25924
+SHA256: a440c9f1fb25a53d22534de95e953236691d77a15399b1eba4b11a91284db271
+
+Package: librhvoice5
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 431
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), librhvoice-core10 (>= 1.14.0), libstdc++6 (>= 11)
+Description: RHVoice speech synthesizer - shared library
+Multi-Arch: same
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: eed4e088d8871ddbd65881a03b61cc82
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/librhvoice5_1.14.0-2~bpo12+1_amd64.deb
+Size: 92800
+SHA256: 03412bee81397db7cb1f5a4565e758dc275341c666f272a17cbfc403e776800b
+
+Package: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 652
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libglibmm-2.4-1v5 (>= 2.66.5), librhvoice-audio2 (>= 1.14.0), librhvoice-core10 (>= 1.14.0), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 11)
+Description: Speech synthesizer - test tools
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 5188469e442a02dc5d32fa8e3806ce6d
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice_1.14.0-2~bpo12+1_amd64.deb
+Size: 171944
+SHA256: bbfdefe93b968054ef25d8d63a78728d14a01f7a459553d97304a27ac18b0ef4
+
+Package: rhvoice-albanian
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 45114
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Albanian voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 1f88edaa90632aed84d8f50ce8f87f35
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-albanian_1.14.0-2~bpo12+1_all.deb
+Size: 8384616
+SHA256: e782be13e1c6998be1c0a19868a37aab28367f1dbcd974ca33ce737ae643a764
+
+Package: rhvoice-brazilian-portuguese
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 36568
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Brazilian Portuguese voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 49e8f717e426bbe8549aaa43833a4f18
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-brazilian-portuguese_1.14.0-2~bpo12+1_all.deb
+Size: 19682348
+SHA256: d0498a7eb5f5a431f5d966cc0f0c5f60f980738d4d18c3d8404828b655e69782
+
+Package: rhvoice-czech
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 18020
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Czech voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 62a86a2f2d13418bd3acf3b7b19ef62d
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-czech_1.14.0-2~bpo12+1_all.deb
+Size: 9677288
+SHA256: b2e9b09d5212e2fbd25900b14295f89eb39e4b35c9125f1683278270a320073c
+
+Package: rhvoice-english
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 62939
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - English voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 397ed7f28c03b3529139a1860e44494e
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-english_1.14.0-2~bpo12+1_all.deb
+Size: 33026408
+SHA256: a469fd4033a4c16423a57c92550006c04a0afbeb512168c72f6e24328cd0152f
+
+Package: rhvoice-esperanto
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 13194
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Esperanto voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: e241299fc52d8419fa31269d0b0523a0
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-esperanto_1.14.0-2~bpo12+1_all.deb
+Size: 6471184
+SHA256: cff71078dd23eae7014e52bd728ad9b4d28a19e2e2295b79545b91cf3a346ee6
+
+Package: rhvoice-kyrgyz
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 49797
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Kyrgyz voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 5e51e3df9d1537caee31cca7a81a7f5d
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-kyrgyz_1.14.0-2~bpo12+1_all.deb
+Size: 24880112
+SHA256: 0e3cb9d12eb1832780cdcfe63e31b2c0f1580c218635e3bc23f1987471c73fe9
+
+Package: rhvoice-macedonian
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 40579
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Macedonian voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 799e7e4a66be04e0483493a1c08bbd07
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-macedonian_1.14.0-2~bpo12+1_all.deb
+Size: 17801156
+SHA256: 5d23c6d7f64eaa287f542167c1d896bbb235f037966113bab5f181e45a0edccc
+
+Package: rhvoice-polish
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 76090
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Polish voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 634fbad14052d034c40fd8da6c2ebba5
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-polish_1.14.0-2~bpo12+1_all.deb
+Size: 37718384
+SHA256: 97f2fa674704fdbc8886ef0f801600456cb1f298aea40f2b26d46e4bccefdec0
+
+Package: rhvoice-russian
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 275725
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Russian voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: e7c458df70fd52bffae0f8e30826db63
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-russian_1.14.0-2~bpo12+1_all.deb
+Size: 143859800
+SHA256: 74a8ada73cec57c6ec0bddb0d6ef434a5cc74657b052b0c4704521e6f9311129
+
+Package: rhvoice-slovak
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 52624
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Slovak voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: dacf3bfb3747f6813ad21b20bc8c946a
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-slovak_1.14.0-2~bpo12+1_all.deb
+Size: 11054812
+SHA256: a36c135f6c92a17cbbf74bfd938d717e6f23d8488c932c25ed493dede68ddce9
+
+Package: rhvoice-tatar
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 33729
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Tatar voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: a265992b57c24eac6c81c8119349d72d
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-tatar_1.14.0-2~bpo12+1_all.deb
+Size: 13530192
+SHA256: 432634a002a2ebff15634077c12388596888c895dbd8d892e7a1f9b61d6bb85a
+
+Package: rhvoice-ukrainian
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 73830
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Ukrainian voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: f98c178e63ced199ced0d87cfe4f8959
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-ukrainian_1.14.0-2~bpo12+1_all.deb
+Size: 36634448
+SHA256: 2318a4ccb54359a80c9970d5c37a55832eb4b83c6f572d0e5c28cb1fbc6170dd
+
+Package: rhvoice-uzbek
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 7826
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: all
+Provides: rhvoice-voice
+Description: RHVoice speech synthesizer - Uzbek voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 0811e7297b8d13aa95c65f0055b5d790
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/rhvoice-uzbek_1.14.0-2~bpo12+1_all.deb
+Size: 3482776
+SHA256: 76dd95917d11d0e3fee630dee46c071eac04f4aa217d76211b1def8dc2075e09
+
+Package: speech-dispatcher-rhvoice
+Source: rhvoice
+Version: 1.14.0-2~bpo12+1
+Installed-Size: 481
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Architecture: amd64
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), librhvoice-audio2 (>= 1.14.0), librhvoice-core10 (>= 1.14.0), libstdc++6 (>= 11), speech-dispatcher
+Description: RHVoice speech synthesizer - speech dispatcher module
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Description-md5: 1d89cc1e756ee8cdaf5596d9efb44ef2
+Section: non-free/sound
+Priority: optional
+Filename: pool/non-free/r/rhvoice/speech-dispatcher-rhvoice_1.14.0-2~bpo12+1_amd64.deb
+Size: 117120
+SHA256: 2c71fe135363f43ff331f3ee4919dfe3aceb6917b85a8be679ead73e56c5056b
+
+Package: otrs2
+Source: znuny
+Version: 6.5.15-2~bpo12+1
+Installed-Size: 101951
+Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, perl:any, apache2 | httpd-cgi, libapache2-reload-perl, libapache-dbi-perl, libauthen-sasl-perl, libcrypt-passwdmd5-perl, libcpan-audit-perl, libdate-pcalc-perl, libemail-valid-perl, libdata-uuid-perl, libio-stringy-perl, libical-parser-perl, libmime-tools-perl, libclass-accessor-lite-perl, libmailtools-perl, libproc-daemon-perl, liblingua-translit-perl, libpod-strip-perl, libio-interactive-perl, libnet-sslglue-perl, libhtml-truncate-perl, libhtml-tagset-perl, libschedule-cron-events-perl, adduser, ucf, dbconfig-common (>= 1.8.24), libtext-diff-perl, libxml-parser-perl, libtext-csv-perl, libxml-feedpp-perl, liblinux-distribution-perl, libmail-pop3client-perl, libpdf-api2-perl, libxml-parser-lite-perl | libsoap-lite-perl (<< 1.08-1~), libnet-imap-simple-perl, libnet-imap-simple-ssl-perl, libnet-smtp-ssl-perl, libdbd-pg-perl | libdbd-mysql-perl, libgd-text-perl, libgd-graph-perl, libdbi-perl, libdigest-sha-perl, libjavascript-minifier-perl, libcss-minifier-perl, fonts-dejavu-extra, fonts-font-awesome, libyaml-perl, libyaml-libyaml-perl, libsys-hostname-long-perl, libsisimai-perl, libhtml-parser-perl, libgd-gd2-perl, libjson-xs-perl, libnet-smtp-tls-butmaintained-perl, libtext-csv-xs-perl, libtext-diff-formattedhtml-perl, libcrypt-eksblowfish-perl, libencode-hanextra-perl, libnet-ldap-perl, libtemplate-perl, libmail-imapclient-perl (>= 3.31), libcgi-pm-perl, libexcel-writer-xlsx-perl, libxml-libxml-perl, libxml-libxslt-perl, libmoo-perl, libmodule-refresh-perl, libcrypt-ssleay-perl, libdatetime-perl, libxml-simple-perl, libxml-libxml-simple-perl, libmath-random-secure-perl, libcrypt-jwt-perl, libhash-merge-perl, libcss-minifier-xs-perl, libjavascript-minifier-xs-perl, libspreadsheet-xlsx-perl, liblocale-codes-perl, libjson-perl
+Recommends: postgresql-client | default-mysql-client, procmail | maildrop, aspell | ispell
+Suggests: postgresql | default-mysql-server
+Description: Open Ticket Request System Znuny
+Homepage: https://github.com/znuny/Znuny
+Description-md5: 290701760a3865670b9dccd7b92a308c
+Section: non-free/web
+Priority: optional
+Filename: pool/non-free/z/znuny/otrs2_6.5.15-2~bpo12+1_all.deb
+Size: 11196084
+SHA256: ee0d442f89d782860e2cc0f62b3f674bac3ba67cad1dcb5b8dac00fbdf4a8e5d
+
+Package: znuny
+Version: 6.5.15-2~bpo12+1
+Installed-Size: 264
+Maintainer: Patrick Matthäi <pmatthaei@debian.org>
+Architecture: all
+Depends: otrs2
+Description: flexible web-based ticketing system
+Homepage: https://github.com/znuny/Znuny
+Description-md5: 5873eb0ef17c83935a4c095d51336c5c
+Section: non-free/web
+Priority: optional
+Filename: pool/non-free/z/znuny/znuny_6.5.15-2~bpo12+1_all.deb
+Size: 259136
+SHA256: 3305d1f9e804c4127b42e2366eba12196621ce6caa21eff8ef646eade9b411c5
+

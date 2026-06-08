@@ -1,0 +1,16 @@
+# VBoxGuestAdditions installation record.
+# Package installation directory
+INSTALL_DIR='/opt/VBoxGuestAdditions-7.2.6'
+# Additional installation modules
+INSTALL_MODULES_DIR='/opt/VBoxGuestAdditions-7.2.6/installer/'
+INSTALL_MODULES_LIST=''
+# Package uninstaller.  If you repackage this software, please make sure
+# that this prints a message and returns an error so that the default
+# uninstaller does not attempt to delete the files installed by your
+# package.
+UNINSTALLER='uninstall.sh'
+# Package version
+INSTALL_VER='7.2.6'
+# Build type and user name for logging purposes
+BUILD_VBOX_KBUILD_TYPE=''
+BUILD_USERNAME=''

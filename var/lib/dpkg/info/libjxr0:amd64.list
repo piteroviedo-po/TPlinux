@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libjpegxr.so.1.2
+/usr/lib/x86_64-linux-gnu/libjxrglue.so.1.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libjxr0
+/usr/share/doc/libjxr0/JPEGXR_DPK_Spec_1.0.txt.gz
+/usr/share/doc/libjxr0/README.Debian
+/usr/share/doc/libjxr0/changelog.Debian.gz
+/usr/share/doc/libjxr0/copyright
+/usr/share/doc/libjxr0/readme.txt.gz
+/usr/lib/x86_64-linux-gnu/libjpegxr.so.0
+/usr/lib/x86_64-linux-gnu/libjxrglue.so.0

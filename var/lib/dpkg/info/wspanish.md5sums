@@ -1,0 +1,7 @@
+fb50d333f4d376e9d7a020f533652407  usr/share/dict/spanish
+d0032cf5e70e1c5b855677df8cc6aad1  usr/share/doc/wspanish/README.Debian
+3f939d663e0da5f811d5d2fb7640b823  usr/share/doc/wspanish/changelog.gz
+01df0fb60b6b2db5e8aea27803bc6071  usr/share/doc/wspanish/copyright
+b334f520c3589767281551d8c6cab668  usr/share/lintian/overrides/wspanish
+79cb431acbbec6d7224a1df391a0f520  usr/share/man/man5/spanish.5.gz
+49afc55b6f86c201c0888691b01abc91  var/lib/dictionaries-common/wordlist/wspanish

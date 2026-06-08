@@ -1,0 +1,4 @@
+ac6bd287a56cff0dcd8b07c305e5750e  usr/lib/mysql/plugin/provider_bzip2.so
+6add08c1c9ccf2f6dc032b3162340784  usr/share/doc/mariadb-plugin-provider-bzip2/changelog.Debian.gz
+ea51e0f543151819f399b65441e80ffb  usr/share/doc/mariadb-plugin-provider-bzip2/copyright
+cf952c590cb4d816f1b97c520faa1791  usr/share/lintian/overrides/mariadb-plugin-provider-bzip2

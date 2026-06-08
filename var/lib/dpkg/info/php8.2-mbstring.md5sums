@@ -1,0 +1,5 @@
+f56f5eee154af2b2d5614c48c3bcc556  usr/lib/php/20220829/mbstring.so
+77bd9ec9de72d42b8fb6436a964c26ee  usr/share/bug/php8.2-mbstring/control
+0dc3f4064664bfeeac3f76580b4e7b73  usr/share/bug/php8.2-mbstring/script
+683a956d67ae0d53e726631f730894cb  usr/share/lintian/overrides/php8.2-mbstring
+4036a043c18d96704cf2913442c2b3c9  usr/share/php8.2-mbstring/mbstring/mbstring.ini

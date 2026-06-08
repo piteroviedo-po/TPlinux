@@ -1,0 +1,5 @@
+54f52d49034901dd128810f44a6a9836  lib/x86_64-linux-gnu/libnss_nis.so.2.0.0
+ecc1c45ead97bbe8eae1d98da1971868  usr/share/doc/libnss-nis/changelog.Debian.gz
+dd650fdbc7eb9a56edbfd1fd5beace91  usr/share/doc/libnss-nis/changelog.gz
+9e509164dae9b48f3b0aae21c3db62de  usr/share/doc/libnss-nis/copyright
+dcfda04b4c64b76779d30b5cbb650b84  usr/share/lintian/overrides/libnss-nis

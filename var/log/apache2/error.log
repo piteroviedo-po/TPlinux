@@ -1,0 +1,2 @@
+[Mon Jun 08 00:00:08.146104 2026] [mpm_prefork:notice] [pid 2913:tid 2913] AH00163: Apache/2.4.67 (Debian) configured -- resuming normal operations
+[Mon Jun 08 00:00:08.146642 2026] [core:notice] [pid 2913:tid 2913] AH00094: Command line: '/usr/sbin/apache2'

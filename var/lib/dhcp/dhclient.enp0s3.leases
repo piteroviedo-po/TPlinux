@@ -1,0 +1,65 @@
+default-duid "\000\001\000\001&\024\244&\010\000'\354\230\334";
+lease {
+  interface "enp0s3";
+  fixed-address 192.168.1.55;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.1;
+  option dhcp-lease-time 28800;
+  option dhcp-message-type 5;
+  option domain-name-servers 186.130.128.250,186.130.129.250;
+  option dhcp-server-identifier 192.168.1.1;
+  option vendor-encapsulated-options "";
+  option netbios-name-servers 192.168.1.1;
+  option domain-name "Home";
+  renew 0 2026/05/17 19:43:29;
+  rebind 0 2026/05/17 19:43:29;
+  expire 0 2026/05/17 19:43:29;
+}
+lease {
+  interface "enp0s3";
+  fixed-address 192.168.1.55;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.1;
+  option dhcp-lease-time 28800;
+  option dhcp-message-type 5;
+  option domain-name-servers 186.130.128.250,186.130.129.250;
+  option dhcp-server-identifier 192.168.1.1;
+  option vendor-encapsulated-options "";
+  option netbios-name-servers 192.168.1.1;
+  option domain-name "Home";
+  renew 1 2026/05/18 05:07:24;
+  rebind 1 2026/05/18 08:38:47;
+  expire 1 2026/05/18 09:38:47;
+}
+lease {
+  interface "enp0s3";
+  fixed-address 192.168.1.55;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.1;
+  option dhcp-lease-time 28800;
+  option dhcp-message-type 5;
+  option domain-name-servers 186.130.128.250,186.130.129.250;
+  option dhcp-server-identifier 192.168.1.1;
+  option vendor-encapsulated-options "";
+  option netbios-name-servers 192.168.1.1;
+  option domain-name "Home";
+  renew 1 2026/05/18 21:57:27;
+  rebind 2 2026/05/19 01:14:25;
+  expire 2 2026/05/19 02:14:25;
+}
+lease {
+  interface "enp0s3";
+  fixed-address 192.168.1.55;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.1;
+  option dhcp-lease-time 28800;
+  option dhcp-message-type 5;
+  option domain-name-servers 186.130.128.250,186.130.129.250;
+  option dhcp-server-identifier 192.168.1.1;
+  option vendor-encapsulated-options "";
+  option netbios-name-servers 192.168.1.1;
+  option domain-name "Home";
+  renew 2 2026/05/19 23:51:03;
+  rebind 3 2026/05/20 02:56:58;
+  expire 3 2026/05/20 03:56:58;
+}

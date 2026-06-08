@@ -1,0 +1,18 @@
+
+VirtualBox Guest Additions: Starting.
+VirtualBox Guest Additions: Setting up modules
+VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel 
+modules.  This may take a while.
+VirtualBox Guest Additions: To build modules for other installed kernels, run
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup <version>
+VirtualBox Guest Additions: or
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup all
+VirtualBox Guest Additions: Kernel headers not found for target kernel 
+6.1.0-48-amd64. Please install them and execute
+  /sbin/rcvboxadd setup
+VirtualBox Guest Additions: Running kernel modules will not be replaced until 
+the system is restarted or 'rcvboxadd reload' triggered
+VirtualBox Guest Additions: reloading kernel modules and services
+VirtualBox Guest Additions: kernel modules were not reloaded
+VirtualBox Guest Additions: kernel modules and services were not reloaded
+The log file /var/log/vboxadd-setup.log may contain further information.

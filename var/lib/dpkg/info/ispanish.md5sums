@@ -1,0 +1,11 @@
+696923a2a5d20c9d0b68f91d3180c349  usr/lib/ispell/espa~nol.aff
+41a3e8963e7a14b69216d0403d4f57ad  usr/share/doc/ispanish/LEAME.Debian
+8208bfb6455e40aa71f69b9cf2ba3be9  usr/share/doc/ispanish/LEAME.gz
+00cfb4161b8a2883b58acf16fd23c1f7  usr/share/doc/ispanish/README.Debian
+6b26cb311ed50cbf3fa93c993459b0bb  usr/share/doc/ispanish/README.gz
+a9712c41a7ba3905a91f33e4737512c0  usr/share/doc/ispanish/changelog.Debian.gz
+e3666cf5f54444ad2535ea02efe3e6ba  usr/share/doc/ispanish/copyright
+ccfe05b7550857b3c7799233b6678643  usr/share/doc/ispanish/orig2latin1.sed
+99f26b52a625eac5f7c8c2bc14cc0719  usr/share/ispell/espa~nol.mwl.gz
+a5ba21e028c6ce4081e785106a9330eb  usr/share/lintian/overrides/ispanish
+815b59e25160a5adf54370a5587f2101  var/lib/dictionaries-common/ispell/ispanish

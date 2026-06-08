@@ -1,0 +1,6 @@
+7e9406c62cc3237bc13f9be62745e5e1  usr/bin/JxrDecApp
+48befa8362ee70c156da1cbaada51f6f  usr/bin/JxrEncApp
+429b9c44488652593e2af2682d05963c  usr/share/doc/libjxr-tools/changelog.Debian.gz
+31c8af8ed7cc9b16504d9bd187248036  usr/share/doc/libjxr-tools/copyright
+28c37df1a439471db8c402407b4eb174  usr/share/man/man1/JxrDecApp.1.gz
+2ffd00295c428c6783ae83c3f1134a66  usr/share/man/man1/JxrEncApp.1.gz

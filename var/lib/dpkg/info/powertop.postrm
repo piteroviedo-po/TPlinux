@@ -1,0 +1,27 @@
+#!/bin/sh
+# Automatically added by dh_installsystemd/13.10
+if [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.10
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'powertop.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+# Abort if any command returns an error value
+set -e
+
+case "$1" in
+	purge)
+		# This package has previously been removed and is now having
+		# its configuration purged from the system.
+		:
+		rm -rf /var/cache/powertop
+		;;
+esac
+
+exit 0
